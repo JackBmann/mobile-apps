@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C84D180E1F71BF4300DDB0FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D180D1F71BF4300DDB0FB /* AppDelegate.swift */; };
+		C84D18101F71BF4300DDB0FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D180F1F71BF4300DDB0FB /* ViewController.swift */; };
+		C84D18131F71BF4300DDB0FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84D18111F71BF4300DDB0FB /* Main.storyboard */; };
+		C84D18151F71BF4300DDB0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84D18141F71BF4300DDB0FB /* Assets.xcassets */; };
+		C84D18181F71BF4300DDB0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84D18161F71BF4300DDB0FB /* LaunchScreen.storyboard */; };
+		C84D18231F71BF4300DDB0FB /* DaffodilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D18221F71BF4300DDB0FB /* DaffodilsTests.swift */; };
+		C84D182E1F71BF4300DDB0FB /* DaffodilsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84D182D1F71BF4300DDB0FB /* DaffodilsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C84D181F1F71BF4300DDB0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84D18021F71BF4300DDB0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84D18091F71BF4300DDB0FB;
+			remoteInfo = Daffodils;
+		};
+		C84D182A1F71BF4300DDB0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84D18021F71BF4300DDB0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84D18091F71BF4300DDB0FB;
+			remoteInfo = Daffodils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C84D180A1F71BF4300DDB0FB /* Daffodils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daffodils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84D180D1F71BF4300DDB0FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C84D180F1F71BF4300DDB0FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C84D18121F71BF4300DDB0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C84D18141F71BF4300DDB0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C84D18171F71BF4300DDB0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C84D18191F71BF4300DDB0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84D181E1F71BF4300DDB0FB /* DaffodilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaffodilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84D18221F71BF4300DDB0FB /* DaffodilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaffodilsTests.swift; sourceTree = "<group>"; };
+		C84D18241F71BF4300DDB0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84D18291F71BF4300DDB0FB /* DaffodilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaffodilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84D182D1F71BF4300DDB0FB /* DaffodilsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaffodilsUITests.swift; sourceTree = "<group>"; };
+		C84D182F1F71BF4300DDB0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C84D18071F71BF4300DDB0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D181B1F71BF4300DDB0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D18261F71BF4300DDB0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C84D18011F71BF4300DDB0FB = {
+			isa = PBXGroup;
+			children = (
+				C84D180C1F71BF4300DDB0FB /* Daffodils */,
+				C84D18211F71BF4300DDB0FB /* DaffodilsTests */,
+				C84D182C1F71BF4300DDB0FB /* DaffodilsUITests */,
+				C84D180B1F71BF4300DDB0FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C84D180B1F71BF4300DDB0FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84D180A1F71BF4300DDB0FB /* Daffodils.app */,
+				C84D181E1F71BF4300DDB0FB /* DaffodilsTests.xctest */,
+				C84D18291F71BF4300DDB0FB /* DaffodilsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C84D180C1F71BF4300DDB0FB /* Daffodils */ = {
+			isa = PBXGroup;
+			children = (
+				C84D180D1F71BF4300DDB0FB /* AppDelegate.swift */,
+				C84D180F1F71BF4300DDB0FB /* ViewController.swift */,
+				C84D18111F71BF4300DDB0FB /* Main.storyboard */,
+				C84D18141F71BF4300DDB0FB /* Assets.xcassets */,
+				C84D18161F71BF4300DDB0FB /* LaunchScreen.storyboard */,
+				C84D18191F71BF4300DDB0FB /* Info.plist */,
+			);
+			path = Daffodils;
+			sourceTree = "<group>";
+		};
+		C84D18211F71BF4300DDB0FB /* DaffodilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C84D18221F71BF4300DDB0FB /* DaffodilsTests.swift */,
+				C84D18241F71BF4300DDB0FB /* Info.plist */,
+			);
+			path = DaffodilsTests;
+			sourceTree = "<group>";
+		};
+		C84D182C1F71BF4300DDB0FB /* DaffodilsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C84D182D1F71BF4300DDB0FB /* DaffodilsUITests.swift */,
+				C84D182F1F71BF4300DDB0FB /* Info.plist */,
+			);
+			path = DaffodilsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C84D18091F71BF4300DDB0FB /* Daffodils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84D18321F71BF4300DDB0FB /* Build configuration list for PBXNativeTarget "Daffodils" */;
+			buildPhases = (
+				C84D18061F71BF4300DDB0FB /* Sources */,
+				C84D18071F71BF4300DDB0FB /* Frameworks */,
+				C84D18081F71BF4300DDB0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Daffodils;
+			productName = Daffodils;
+			productReference = C84D180A1F71BF4300DDB0FB /* Daffodils.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C84D181D1F71BF4300DDB0FB /* DaffodilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84D18351F71BF4300DDB0FB /* Build configuration list for PBXNativeTarget "DaffodilsTests" */;
+			buildPhases = (
+				C84D181A1F71BF4300DDB0FB /* Sources */,
+				C84D181B1F71BF4300DDB0FB /* Frameworks */,
+				C84D181C1F71BF4300DDB0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84D18201F71BF4300DDB0FB /* PBXTargetDependency */,
+			);
+			name = DaffodilsTests;
+			productName = DaffodilsTests;
+			productReference = C84D181E1F71BF4300DDB0FB /* DaffodilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C84D18281F71BF4300DDB0FB /* DaffodilsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84D18381F71BF4300DDB0FB /* Build configuration list for PBXNativeTarget "DaffodilsUITests" */;
+			buildPhases = (
+				C84D18251F71BF4300DDB0FB /* Sources */,
+				C84D18261F71BF4300DDB0FB /* Frameworks */,
+				C84D18271F71BF4300DDB0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84D182B1F71BF4300DDB0FB /* PBXTargetDependency */,
+			);
+			name = DaffodilsUITests;
+			productName = DaffodilsUITests;
+			productReference = C84D18291F71BF4300DDB0FB /* DaffodilsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C84D18021F71BF4300DDB0FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jbaumann;
+				TargetAttributes = {
+					C84D18091F71BF4300DDB0FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C84D181D1F71BF4300DDB0FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C84D18091F71BF4300DDB0FB;
+					};
+					C84D18281F71BF4300DDB0FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C84D18091F71BF4300DDB0FB;
+					};
+				};
+			};
+			buildConfigurationList = C84D18051F71BF4300DDB0FB /* Build configuration list for PBXProject "Daffodils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C84D18011F71BF4300DDB0FB;
+			productRefGroup = C84D180B1F71BF4300DDB0FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84D18091F71BF4300DDB0FB /* Daffodils */,
+				C84D181D1F71BF4300DDB0FB /* DaffodilsTests */,
+				C84D18281F71BF4300DDB0FB /* DaffodilsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C84D18081F71BF4300DDB0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84D18181F71BF4300DDB0FB /* LaunchScreen.storyboard in Resources */,
+				C84D18151F71BF4300DDB0FB /* Assets.xcassets in Resources */,
+				C84D18131F71BF4300DDB0FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D181C1F71BF4300DDB0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D18271F71BF4300DDB0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C84D18061F71BF4300DDB0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84D18101F71BF4300DDB0FB /* ViewController.swift in Sources */,
+				C84D180E1F71BF4300DDB0FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D181A1F71BF4300DDB0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84D18231F71BF4300DDB0FB /* DaffodilsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84D18251F71BF4300DDB0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84D182E1F71BF4300DDB0FB /* DaffodilsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C84D18201F71BF4300DDB0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84D18091F71BF4300DDB0FB /* Daffodils */;
+			targetProxy = C84D181F1F71BF4300DDB0FB /* PBXContainerItemProxy */;
+		};
+		C84D182B1F71BF4300DDB0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84D18091F71BF4300DDB0FB /* Daffodils */;
+			targetProxy = C84D182A1F71BF4300DDB0FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C84D18111F71BF4300DDB0FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84D18121F71BF4300DDB0FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C84D18161F71BF4300DDB0FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84D18171F71BF4300DDB0FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C84D18301F71BF4300DDB0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C84D18311F71BF4300DDB0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C84D18331F71BF4300DDB0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Daffodils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.Daffodils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C84D18341F71BF4300DDB0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Daffodils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.Daffodils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C84D18361F71BF4300DDB0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaffodilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.DaffodilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daffodils.app/Daffodils";
+			};
+			name = Debug;
+		};
+		C84D18371F71BF4300DDB0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaffodilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.DaffodilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daffodils.app/Daffodils";
+			};
+			name = Release;
+		};
+		C84D18391F71BF4300DDB0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DaffodilsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.DaffodilsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Daffodils;
+			};
+			name = Debug;
+		};
+		C84D183A1F71BF4300DDB0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DaffodilsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.DaffodilsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Daffodils;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C84D18051F71BF4300DDB0FB /* Build configuration list for PBXProject "Daffodils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84D18301F71BF4300DDB0FB /* Debug */,
+				C84D18311F71BF4300DDB0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84D18321F71BF4300DDB0FB /* Build configuration list for PBXNativeTarget "Daffodils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84D18331F71BF4300DDB0FB /* Debug */,
+				C84D18341F71BF4300DDB0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C84D18351F71BF4300DDB0FB /* Build configuration list for PBXNativeTarget "DaffodilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84D18361F71BF4300DDB0FB /* Debug */,
+				C84D18371F71BF4300DDB0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C84D18381F71BF4300DDB0FB /* Build configuration list for PBXNativeTarget "DaffodilsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84D18391F71BF4300DDB0FB /* Debug */,
+				C84D183A1F71BF4300DDB0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C84D18021F71BF4300DDB0FB /* Project object */;
+}
