@@ -21,15 +21,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Project 1 Jack Baumann" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUf-gy-VBP">
-                                <rect key="frame" x="93" y="323" width="188" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack Baumann" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gte-es-jVW">
+                                <rect key="frame" x="131" y="323" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUf-gy-VBP">
+                                <rect key="frame" x="154" y="294" width="66.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gte-es-jVW" firstAttribute="centerX" secondItem="wUf-gy-VBP" secondAttribute="centerX" id="BLO-yF-AjJ"/>
+                            <constraint firstItem="Gte-es-jVW" firstAttribute="top" secondItem="wUf-gy-VBP" secondAttribute="bottom" constant="8" id="E5e-ja-fyE"/>
+                            <constraint firstItem="Gte-es-jVW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FFf-mT-PbV"/>
+                            <constraint firstItem="Gte-es-jVW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VaU-Mp-DMU"/>
+                            <constraint firstItem="wUf-gy-VBP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YIb-qX-MPz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

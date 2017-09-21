@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,26 +30,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="uep-rz-KHW">
-                                <rect key="frame" x="140" y="130" width="94" height="29"/>
-                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HsC-Aw-bnN">
+                                <rect key="frame" x="91" y="170" width="76" height="30"/>
+                                <state key="normal" title="Decrement"/>
+                                <connections>
+                                    <action selector="decrementButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BWg-wY-0Co"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0s-Ro-tJR">
+                                <rect key="frame" x="215" y="170" width="69" height="30"/>
+                                <state key="normal" title="Increment"/>
+                                <connections>
+                                    <action selector="incrementButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CMs-8S-GKr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="p0s-Ro-tJR" firstAttribute="top" secondItem="bjm-fz-HLP" secondAttribute="bottom" constant="55" id="4Cb-1U-93U"/>
                             <constraint firstItem="bjm-fz-HLP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="150" id="81B-q7-kwC"/>
                             <constraint firstItem="bjm-fz-HLP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="74" id="EG9-nq-BuK"/>
-                            <constraint firstItem="uep-rz-KHW" firstAttribute="top" secondItem="bjm-fz-HLP" secondAttribute="bottom" constant="15" id="Jak-Ht-FJz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="p0s-Ro-tJR" secondAttribute="trailing" constant="75" id="N1r-ah-xdW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bjm-fz-HLP" secondAttribute="trailing" constant="151" id="W0r-Ol-a33"/>
-                            <constraint firstItem="uep-rz-KHW" firstAttribute="centerX" secondItem="bjm-fz-HLP" secondAttribute="centerX" id="s2j-5X-Wnn"/>
+                            <constraint firstItem="HsC-Aw-bnN" firstAttribute="top" secondItem="bjm-fz-HLP" secondAttribute="bottom" constant="55" id="WYe-0X-q6a"/>
+                            <constraint firstItem="p0s-Ro-tJR" firstAttribute="baseline" secondItem="HsC-Aw-bnN" secondAttribute="firstBaseline" id="ZBf-Ax-Kg7"/>
+                            <constraint firstItem="HsC-Aw-bnN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="75" id="wrQ-fb-wLz"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="decrementButton" destination="HsC-Aw-bnN" id="Vgq-6T-eMx"/>
+                        <outlet property="incrementButton" destination="p0s-Ro-tJR" id="HXe-bL-6Xr"/>
                         <outlet property="valueLabel" destination="bjm-fz-HLP" id="XwX-lt-uUh"/>
-                        <outlet property="valueStepper" destination="uep-rz-KHW" id="DUQ-RH-M6y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
 </document>
