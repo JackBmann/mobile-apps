@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        tableView.delegate = self
         fetchData()
     }
 
@@ -51,5 +52,14 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeCell", for: indexPath) as! RecipeCell
         cell.recipeNameLabel.text = recipe.name
         return cell
+    }
+}
+
+extension ViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let recipeViewController = storyboard.instantiateViewController(withIdentifier: "RecipeViewController") as! RecipeViewController
+        present(recipeViewController, animated: true, completion: nil)
     }
 }
