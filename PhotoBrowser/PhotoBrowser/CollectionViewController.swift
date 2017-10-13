@@ -2,25 +2,25 @@
 //  ViewController.swift
 //  PhotoBrowser
 //
-//  Created by jbaumann on 10/10/17.
+//  Created by jbaumann on 10/12/17.
 //  Copyright © 2017 jbaumann. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class CollectionViewController: UIViewController {
+    
     var photos: [Photo] = []
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.dataSource = self
-//        tableView.delegate = self
+        collectionView.dataSource = self
+        collectionView.delegate = self
         fetchData()
     }
-
+    
     func fetchData() {
         let url = URL(string: "https://api.flickr.com/services/rest/?format=json&sort=random&method=flickr.photos.search&tags=daffodil&tag_mode=all&api_key=0e2b6aaf8a6901c264acb91f151a3350&nojsoncallback=1")!
         let session = URLSession(configuration: .default)
@@ -39,38 +39,39 @@ class ViewController: UIViewController {
             
             self.photos = photoList.map { Photo(dictionary: $0) }
             DispatchQueue.main.async {
-                self.tableView.reloadData()
+                self.collectionView.reloadData()
             }
         }
         task.resume()
     }
+    
 }
 
-extension ViewController: UITableViewDataSource {
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
+extension CollectionViewController: UICollectionViewDataSource {
 
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return photos.count
     }
 
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let photo = photos[indexPath.item]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "photoCell", for: indexPath) as! PhotoCell
-        cell.photoTitleLabel.text = photo.title
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageBrowserCell", for: indexPath) as! ImageBrowserCell
+        cell.photoTitleLabel.text = photos[indexPath.item].title
+        ImageService.shared.imageForURL(url: photos[indexPath.item].imageURL) { (image) in
+            cell.imageView.image = image
+        }
         return cell
     }
+
 }
 
-//extension ViewController: UITableViewDelegate {
-//
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let recipieViewController = storyboard.instantiateViewController(withIdentifier: "RecipieViewController") as! RecipieViewController
-//        recipieViewController.recipie = recipies[indexPath.item]
-//        present(recipieViewController, animated: true, completion: nil)
-//    }
-//}
+extension CollectionViewController: UICollectionViewDelegate {
+
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let photoViewController = storyboard.instantiateViewController(withIdentifier: "photoViewController") as! PhotoViewController
+        photoViewController.photo = photos[indexPath.item]
+        present(photoViewController, animated: true, completion: nil)
+    }
+
+}
 
