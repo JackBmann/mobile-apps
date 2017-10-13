@@ -19,9 +19,11 @@ class PhotoViewController: UIViewController {
     @IBAction func closeButtonTapped(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        self.tableView.rowHeight = 250;
         ImageService.shared.imageForURL(url: photo?.imageURL) { (image) in
             self.imageView.image = image
         }
@@ -41,7 +43,7 @@ extension PhotoViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "photoCell", for: indexPath) as! PhotoCell
-        cell.configure(photo?.title)
+        cell.configure(title: photo?.title, owner: photo?.owner, id: photo?.id, url: photo?.imageURL)
         return cell
     }
     

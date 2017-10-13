@@ -10,10 +10,16 @@ import UIKit
 
 class PhotoCell: UITableViewCell {
     
-    @IBOutlet weak var photoInfoLabel: UILabel!
+    @IBOutlet weak var photoTitleLabel: UILabel!
+    @IBOutlet weak var photoOwnerLabel: UILabel!
+    @IBOutlet weak var photoIDLabel: UILabel!
+    @IBOutlet weak var photoURLLabel: UILabel!
     
-    func configure(_ with: String?) {
-        photoInfoLabel.text = with
+    func configure(title: String?, owner: String?, id: String?, url: URL?) {
+        photoTitleLabel.text = title
+        photoOwnerLabel.text = owner
+        photoIDLabel.text = id
+        photoURLLabel.text = url?.absoluteString
     }
     
 }
