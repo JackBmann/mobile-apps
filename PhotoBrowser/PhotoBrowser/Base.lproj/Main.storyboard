@@ -47,6 +47,7 @@
                                         </constraints>
                                         <connections>
                                             <outlet property="imageView" destination="hMq-ro-Ux2" id="OLI-Ga-hEA"/>
+                                            <segue destination="Uow-NQ-0w8" kind="presentation" identifier="segueway" modalTransitionStyle="partialCurl" id="Cun-uI-Gg9"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -74,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="agn-sK-PgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7.2000000000000002" y="99.400299850074973"/>
+            <point key="canvasLocation" x="-175" y="99"/>
         </scene>
         <!--Photo View Controller-->
         <scene sceneID="dIL-By-PQR">

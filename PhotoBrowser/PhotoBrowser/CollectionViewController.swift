@@ -24,6 +24,14 @@ class CollectionViewController: UIViewController {
         fetchData()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueway" {
+            let destination = segue.destination as? PhotoViewController
+            let sentFrom = sender as? ImageBrowserCell
+            destination?.photo = sentFrom?.photo
+        }
+    }
+    
     func fetchData() {
         let url = URL(string: "https://api.flickr.com/services/rest/?format=json&sort=random&method=flickr.photos.search&tags=daffodil&tag_mode=all&api_key=0e2b6aaf8a6901c264acb91f151a3350&nojsoncallback=1")!
         let session = URLSession(configuration: .default)
@@ -74,6 +82,7 @@ extension CollectionViewController: UICollectionViewDataSource {
         //Go retrieve the already cached image and put it in the cell.
         ImageService.shared.imageForURL(url: photos[indexPath.item].imageURL) { (image, url) in
             cell.imageView.image = image
+            cell.photo = self.photos[indexPath.item]
         }
         return cell
     }

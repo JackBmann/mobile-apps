@@ -28,7 +28,7 @@ class PhotoCell: UITableViewCell {
         photoTitleLabel.text = "Title: " + title!
         photoOwnerLabel.text = "Owner: " + owner!
         photoIDLabel.text = "ID: " + id!
-        photoURL = url!
+        self.photoURL = url!
         photoURLButton.setTitle(photoURL.absoluteString, for: UIControlState.normal)
         self.parentViewController = parentViewController
     }
