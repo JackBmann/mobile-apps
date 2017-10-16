@@ -10,8 +10,12 @@ import UIKit
 
 class ImageBrowserCell: UICollectionViewCell {
     
-    @IBOutlet weak var photoTitleLabel: UILabel!
-    
     @IBOutlet weak var imageView: UIImageView!
+    
+    //For caching and displaying, to prevent the cell from showing a different image while waiting for an image to load.
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        imageView.image = nil
+    }
     
 }

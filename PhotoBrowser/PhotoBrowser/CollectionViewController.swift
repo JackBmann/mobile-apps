@@ -14,10 +14,13 @@ class CollectionViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
+    @IBOutlet weak var progressView: UIProgressView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
         collectionView.delegate = self
+        progressView.setProgress(0, animated: true)
         fetchData()
     }
     
@@ -38,6 +41,19 @@ class CollectionViewController: UIViewController {
             }
             
             self.photos = photoList.map { Photo(dictionary: $0) }
+            
+            //For tracking the number of images downloaded and displaying a progress view
+            var imagesLoaded: Float = 0
+            let numberOfPhotos: Float = (Float(self.photos.count))
+            
+            //Pre cache every image before reloading the view and increment the progress bar.
+            for photo in self.photos {
+                imagesLoaded += 1
+                ImageService.shared.imageForURL(url: photo.imageURL) { (image, url) in
+                    self.progressView.setProgress(imagesLoaded / numberOfPhotos, animated: true)
+                }
+            }
+            
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
             }
@@ -55,8 +71,8 @@ extension CollectionViewController: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageBrowserCell", for: indexPath) as! ImageBrowserCell
-        cell.photoTitleLabel.text = photos[indexPath.item].title
-        ImageService.shared.imageForURL(url: photos[indexPath.item].imageURL) { (image) in
+        //Go retrieve the already cached image and put it in the cell.
+        ImageService.shared.imageForURL(url: photos[indexPath.item].imageURL) { (image, url) in
             cell.imageView.image = image
         }
         return cell
@@ -71,6 +87,11 @@ extension CollectionViewController: UICollectionViewDelegate {
         let photoViewController = storyboard.instantiateViewController(withIdentifier: "photoViewController") as! PhotoViewController
         photoViewController.photo = photos[indexPath.item]
         present(photoViewController, animated: true, completion: nil)
+        
+        //Remove progressView from CollectionView when the user clicks, but only if it hasn't been removed already
+        if progressView?.progress == 1.0 {
+            progressView.removeFromSuperview()
+        }
     }
 
 }
