@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>African Americans in Texas Historical Markers Map</name>
+    <description/>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>African American Markers Map</name>
+      <Placemark>
+        <name>Germany Community</name>
+        <description><![CDATA[county: Crockett<br>city: Germany<br>address: 10 miles northeast of Crockett off SH 21<br>job number: <br>code: <br>Year: <br>rthl: <br>htc: <br>latitude: <br>longitude: <br>digitized?: <br>markertext: <br>image url: <br>comments: ]]></description>
+        <ExtendedData>
+          <Data name="county">
+            <value>Crockett</value>
+          </Data>
+          <Data name="city">
+            <value>Germany</value>
+          </Data>
+          <Data name="address">
+            <value>10 miles northeast of Crockett off SH 21</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value/>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value/>
+          </Data>
+          <Data name="longitude">
+            <value/>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value/>
+          </Data>
+          <Data name="image url">
+            <value/>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Oak Grove Cemetery</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Ejrpyx7D7l1m37gnA6f1zdtW58kCO-IwTHSHvmjxZD0WUyvc3RtZdwEuwB2wYJNvOo6SPjmlUaLs-1pB_dw9dMPwJE6PAvbF6k4rK2BFh9zyPZa-sI0GQofEyBWyAAlOHgSqi4Zizou_ZJ55vSEXmr0hY_9n6PFBMMk" height="200" width="auto" /><br><br>county: Nacogdoches<br>city: Nacogdoches<br>address: 196 N. Lanana St Nacogdoches<br>job number: <br>code: <br>Year: 1999<br>rthl: x<br>htc: <br>latitude: 31.603316<br>longitude: -94.649763<br>digitized?: <br>markertext: Originally called "American Cemetery," Oak Grove Cemetery is located on the 1826 land grant of Empresario Haden Edwards. The leader of the 1826 Fredonian Rebellion, Edwards is interred here. The earliest marked burial on this site is that of Franklin J. Starr (d. 1837), a native of New Hartford, Connecticut and a local realtor. Many graves from the early Spanish cemetery of Nacogdoches were relocated to this site when the county courthouse was erected on the Spanish cemetery grounds in 1912. The earliest grave from that burial ground is marked, "Father Mendoza," 1718. Oak Grove Cemetery is filled with historical figures important both to Nacogdoches County and the State of Texas. Perhaps the most famous is Thomas Jefferson Rusk, judge, statesman and Sam Houston's secretary of war. Like Rusk, Charles Stanfield Taylor, John S. Roberts and William Clark , Jr., signed the Texas Declaration of Independence. Other statesmen and soldiers interred here include Captain Haden Arnold and Elias E. Hamilton, veterans of the Battle of San Jacinto; Jacob Lewis; James Harper Starr; General Kelsey H. Douglass; George F. Ingraham; Nicholas Adolphus Sterne; Captain Frederick Voigt; and Dr. Robert A. Irion, who also was Sam Houston's personal physician. Other burials of interest include those of former slaves Mitchell Thorn, Lawrence Sleet and Eliza Walker. Frost Thorn was among Texas' early millionaires; Deidrich Anton Wilhelm Rulfs, Nacogdoches' master architect, designed Zion Hill Baptist Church on the north side of the cemetery. Richard William Haltom founded and edited Nacogdoches' "The Daily Sentinel," and poet Karle Wilson Baker was the third person named a fellow to the Texas Institute of Letters. (2000). Image source: texasescapes.com<br>image url: http://www.texasescapes.com/Cemeteries/ImagesII/NacogdochesTXOakGroveCemeteryHistoricalMarker1210DG.jpg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Nacogdoches</value>
+          </Data>
+          <Data name="city">
+            <value>Nacogdoches</value>
+          </Data>
+          <Data name="address">
+            <value>196 N. Lanana St Nacogdoches</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1999.0</value>
+          </Data>
+          <Data name="rthl">
+            <value>x</value>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>31.603316</value>
+          </Data>
+          <Data name="longitude">
+            <value>-94.649763</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[Originally called "American Cemetery," Oak Grove Cemetery is located on the 1826 land grant of Empresario Haden Edwards. The leader of the 1826 Fredonian Rebellion, Edwards is interred here. The earliest marked burial on this site is that of Franklin J. Starr (d. 1837), a native of New Hartford, Connecticut and a local realtor. Many graves from the early Spanish cemetery of Nacogdoches were relocated to this site when the county courthouse was erected on the Spanish cemetery grounds in 1912. The earliest grave from that burial ground is marked, "Father Mendoza," 1718. Oak Grove Cemetery is filled with historical figures important both to Nacogdoches County and the State of Texas. Perhaps the most famous is Thomas Jefferson Rusk, judge, statesman and Sam Houston's secretary of war. Like Rusk, Charles Stanfield Taylor, John S. Roberts and William Clark , Jr., signed the Texas Declaration of Independence. Other statesmen and soldiers interred here include Captain Haden Arnold and Elias E. Hamilton, veterans of the Battle of San Jacinto; Jacob Lewis; James Harper Starr; General Kelsey H. Douglass; George F. Ingraham; Nicholas Adolphus Sterne; Captain Frederick Voigt; and Dr. Robert A. Irion, who also was Sam Houston's personal physician. Other burials of interest include those of former slaves Mitchell Thorn, Lawrence Sleet and Eliza Walker. Frost Thorn was among Texas' early millionaires; Deidrich Anton Wilhelm Rulfs, Nacogdoches' master architect, designed Zion Hill Baptist Church on the north side of the cemetery. Richard William Haltom founded and edited Nacogdoches' "The Daily Sentinel," and poet Karle Wilson Baker was the third person named a fellow to the Texas Institute of Letters. (2000). Image source: texasescapes.com]]></value>
+          </Data>
+          <Data name="image url">
+            <value>http://www.texasescapes.com/Cemeteries/ImagesII/NacogdochesTXOakGroveCemeteryHistoricalMarker1210DG.jpg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/Ejrpyx7D7l1m37gnA6f1zdtW58kCO-IwTHSHvmjxZD0WUyvc3RtZdwEuwB2wYJNvOo6SPjmlUaLs-1pB_dw9dMPwJE6PAvbF6k4rK2BFh9zyPZa-sI0GQofEyBWyAAlOHgSqi4Zizou_ZJ55vSEXmr0hY_9n6PFBMMk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.649763,31.603316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zion Hill First Baptist</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/4GE-Abm6B9IiTf9x7tL8PSPuNG_HUYX-VgBLQfjmA3xeHUZ-osK3_WX9TAxJAJcp7NxyvdDkqbZPykAOiBtmbP7w5YCw7KoTyTkgd7Z9kY0j19fUgA" height="200" width="auto" /><br><br>county: Nacogdoches<br>city: Nacogdoches<br>address: Corner of Lanana and Bois d’arc streets<br>job number: <br>code: <br>Year: 1977<br>rthl: <br>htc: <br>latitude: 31.605322<br>longitude: -94.648974<br>digitized?: <br>markertext: The Rev. Lawson Reed organized this black Baptist congregation in 1879 and led the first worship services under a brush arbor. This structure, erected in 1914 on land purchased from John Schmidt, was the third church building occupied by the membership. Designed by the noted German-born architect Dietrich Antone Wilhelm Rulfs (1848-1926), it combines Victorian styling with Gothic revival detailing. Recorded Texas Historical Landmark - 1977. Image source: pictures-of-historic-nacogdoches.com<br>image url: http://www.pictures-of-historic-nacogdoches.com/077zionchurch.jpeg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Nacogdoches</value>
+          </Data>
+          <Data name="city">
+            <value>Nacogdoches</value>
+          </Data>
+          <Data name="address">
+            <value>Corner of Lanana and Bois d’arc streets</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1977.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>31.605322</value>
+          </Data>
+          <Data name="longitude">
+            <value>-94.648974</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value>The Rev. Lawson Reed organized this black Baptist congregation in 1879 and led the first worship services under a brush arbor. This structure, erected in 1914 on land purchased from John Schmidt, was the third church building occupied by the membership. Designed by the noted German-born architect Dietrich Antone Wilhelm Rulfs (1848-1926), it combines Victorian styling with Gothic revival detailing. Recorded Texas Historical Landmark - 1977. Image source: pictures-of-historic-nacogdoches.com</value>
+          </Data>
+          <Data name="image url">
+            <value>http://www.pictures-of-historic-nacogdoches.com/077zionchurch.jpeg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/4GE-Abm6B9IiTf9x7tL8PSPuNG_HUYX-VgBLQfjmA3xeHUZ-osK3_WX9TAxJAJcp7NxyvdDkqbZPykAOiBtmbP7w5YCw7KoTyTkgd7Z9kY0j19fUgA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.648974,31.605322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Phantom Hill</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/ySeLg0b-Do9hAUhIXJc7gYO2mpGjI-1AOEiYyZpIagAfs9w3Q40GgLv7rH55qgW0CFiedyzUKhPKFMX2E7aUUH1zEilF_Ftc_V3O7Lo4hPyDPlmx9sK-U8I-lxQ-thr1HILSkdrGRXVQR524dIFYYK9S2kpNdW5yOw" height="200" width="auto" /><br><br>county: Jones<br>city: Anson vincinity<br>address: 10818 FM 600 Abilene, TX 79601<br>job number: <br>code: <br>Year: 1936<br>rthl: x<br>htc: <br>latitude: 32.642684<br>longitude: -99.6796886<br>digitized?: <br>markertext: Established November 14, 1851, as unit in chain of forts from Red River to Rio Grande, to defend frontier settlers and west-bound 49ers. Officially "Post on Clear Fork of the Brazos", everyday name became "Phantom Hill," either from prevalent mirages or sighting of ghostly Indian in moonlight. Abandoned by U. S. Army on April 6, 1854, fort served in 1858-61 as stage stand for Southern Overland Mail. In 1871-72, the army again used this as a sub-post of Fort Griffin, 40 miles northeast. The adjacent village was temporary county seat when Jones County was organized in 1881. Erected by the State of Texas, 1971. Image source: fortphantom.com<br>image url: http://fortphantom.org/wp-content/uploads/2013/07/Fort-Phantom-Kiosk-Pictures-by-Scott-Galusha-003.jpg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Jones</value>
+          </Data>
+          <Data name="city">
+            <value>Anson vincinity</value>
+          </Data>
+          <Data name="address">
+            <value>10818 FM 600 Abilene, TX 79601</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1936.0</value>
+          </Data>
+          <Data name="rthl">
+            <value>x</value>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>32.642684</value>
+          </Data>
+          <Data name="longitude">
+            <value>-99.6796886</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[Established November 14, 1851, as unit in chain of forts from Red River to Rio Grande, to defend frontier settlers and west-bound 49ers. Officially "Post on Clear Fork of the Brazos", everyday name became "Phantom Hill," either from prevalent mirages or sighting of ghostly Indian in moonlight. Abandoned by U. S. Army on April 6, 1854, fort served in 1858-61 as stage stand for Southern Overland Mail. In 1871-72, the army again used this as a sub-post of Fort Griffin, 40 miles northeast. The adjacent village was temporary county seat when Jones County was organized in 1881. Erected by the State of Texas, 1971. Image source: fortphantom.com]]></value>
+          </Data>
+          <Data name="image url">
+            <value>http://fortphantom.org/wp-content/uploads/2013/07/Fort-Phantom-Kiosk-Pictures-by-Scott-Galusha-003.jpg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/ySeLg0b-Do9hAUhIXJc7gYO2mpGjI-1AOEiYyZpIagAfs9w3Q40GgLv7rH55qgW0CFiedyzUKhPKFMX2E7aUUH1zEilF_Ftc_V3O7Lo4hPyDPlmx9sK-U8I-lxQ-thr1HILSkdrGRXVQR524dIFYYK9S2kpNdW5yOw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -99.6796886,32.642684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Civillian Conservation Corps at Fort Griffin</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/nl2Kwg3MKIPL7cFwKMRuu4rnQQUFqULI409FauzjFwu8XA-PSckSNOkZSGnnA1r1TJyA09rdXuMJYdOoUkxGf7YsOh_c3mipGFLh7HncIboy3g-aSJJakNOSIB86SW4kT1uk_NIkGmgm3pkmpXUf9TDs2sM" height="200" width="auto" /><br><br>county: Shackelford<br>city: Albany<br>address: 1701 N US HWY 283<br>job number: <br>code: <br>Year: 2011<br>rthl: x<br>htc: <br>latitude: 32.922163<br>longitude: -99.2325293<br>digitized?: <br>markertext: The civilian conservation corps (ccc) operated nationwide between 1933 and 1942 to conserve natural resources and to provide work for young men during the great depression. The federal program provided employment for 2.5 million young men working out of 3,000 camps. Roughly 50,000 Texans were enrolled in the ccc and made a significant contribution to the development of the state’s park system. The colorful frontier history of fort griffin and the need for its preservation prompted citizens of shackelford county to donate the historic site to the state. The national park service approved a new ccc camp at fort griffin state park in 1939. Crews from existing camps in cleburne and lockhart arrived in 1939 and 1940. In the spring of 1940, as original company members were discharged, local area men signed up and were assigned to fort griffin. Many of these men enrolled in classes at the camp and local high school, and participated in local sports and activities. Around 200 men completed a stone pavilion, park roads, 24 table and bench combinations, 14 camp fire places, two latrines, surveys of the park, a water drainage system and entrance gate, and planted trees and shrubs on hundreds of acres. Although some local groups hoped that the focus would be on the restoration of historical features, most of the work completed at the time was on recreational amenities. The rock gate, roads, fort ruins and pavilion remain at the site. The camp was abandoned on dec. 1, 1941. Many of the young men went straight into military service and wwii. In the 1940s, many buildings used by the ccc were moved to military camps or schools throughout texas. Image source: legendsofamerica.com<br>image url: http://www.legendsofamerica.com/photos-texas/Fort%20Griffin%20Administration%20Building-2-280.jpg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Shackelford</value>
+          </Data>
+          <Data name="city">
+            <value>Albany</value>
+          </Data>
+          <Data name="address">
+            <value>1701 N US HWY 283</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>2011.0</value>
+          </Data>
+          <Data name="rthl">
+            <value>x</value>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>32.922163</value>
+          </Data>
+          <Data name="longitude">
+            <value>-99.2325293</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value>The civilian conservation corps (ccc) operated nationwide between 1933 and 1942 to conserve natural resources and to provide work for young men during the great depression. The federal program provided employment for 2.5 million young men working out of 3,000 camps. Roughly 50,000 Texans were enrolled in the ccc and made a significant contribution to the development of the state’s park system. The colorful frontier history of fort griffin and the need for its preservation prompted citizens of shackelford county to donate the historic site to the state. The national park service approved a new ccc camp at fort griffin state park in 1939. Crews from existing camps in cleburne and lockhart arrived in 1939 and 1940. In the spring of 1940, as original company members were discharged, local area men signed up and were assigned to fort griffin. Many of these men enrolled in classes at the camp and local high school, and participated in local sports and activities. Around 200 men completed a stone pavilion, park roads, 24 table and bench combinations, 14 camp fire places, two latrines, surveys of the park, a water drainage system and entrance gate, and planted trees and shrubs on hundreds of acres. Although some local groups hoped that the focus would be on the restoration of historical features, most of the work completed at the time was on recreational amenities. The rock gate, roads, fort ruins and pavilion remain at the site. The camp was abandoned on dec. 1, 1941. Many of the young men went straight into military service and wwii. In the 1940s, many buildings used by the ccc were moved to military camps or schools throughout texas. Image source: legendsofamerica.com</value>
+          </Data>
+          <Data name="image url">
+            <value>http://www.legendsofamerica.com/photos-texas/Fort%20Griffin%20Administration%20Building-2-280.jpg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/nl2Kwg3MKIPL7cFwKMRuu4rnQQUFqULI409FauzjFwu8XA-PSckSNOkZSGnnA1r1TJyA09rdXuMJYdOoUkxGf7YsOh_c3mipGFLh7HncIboy3g-aSJJakNOSIB86SW4kT1uk_NIkGmgm3pkmpXUf9TDs2sM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -99.2325293,32.922163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Richardson</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/9W55T1ci6LX74Iuo-4zMD4Bmtnel90fLZp_XmXE3t-FraifFwMBEZsgq2eZbG1e23kCj7TDevn4O_v4DRzOo8crdcl4qzjwteuk7RuiabIMXOfJxym_sSRpsuuZ455oESmoTG-cWEg" height="200" width="auto" /><br><br>county: Jack<br>city: Jacksboro<br>address: 228 Park Road 61, Jacksboro, TX 76458<br>job number: <br>code: <br>Year: <br>rthl: x<br>htc: <br>latitude: 33.211214<br>longitude: -98.1572846<br>digitized?: <br>markertext: Established November 26, 1867 by the United States Army to defend the frontier against the Indians. A mail station on the Butterfield Overland Stage Line, 1858-1861. Abandoned as a military post May 23, 1879. Image source: tpwd.texas.gov<br>image url: http://tpwd.texas.gov/state-parks/fort-richardson/gallery/buffalo-soldiers-996-1.jpg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Jack</value>
+          </Data>
+          <Data name="city">
+            <value>Jacksboro</value>
+          </Data>
+          <Data name="address">
+            <value>228 Park Road 61, Jacksboro, TX 76458</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value/>
+          </Data>
+          <Data name="rthl">
+            <value>x</value>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>33.211214</value>
+          </Data>
+          <Data name="longitude">
+            <value>-98.1572846</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value>Established November 26, 1867 by the United States Army to defend the frontier against the Indians. A mail station on the Butterfield Overland Stage Line, 1858-1861. Abandoned as a military post May 23, 1879. Image source: tpwd.texas.gov</value>
+          </Data>
+          <Data name="image url">
+            <value>http://tpwd.texas.gov/state-parks/fort-richardson/gallery/buffalo-soldiers-996-1.jpg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/9W55T1ci6LX74Iuo-4zMD4Bmtnel90fLZp_XmXE3t-FraifFwMBEZsgq2eZbG1e23kCj7TDevn4O_v4DRzOo8crdcl4qzjwteuk7RuiabIMXOfJxym_sSRpsuuZ455oESmoTG-cWEg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.1572846,33.211214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort McKavett State Historic Site</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/CXVCdNFedZ-mJ7w7aWGAorslGNm-EFnfKQHd5k9oInRTba6R_zqHMazEFkvz5skaCjFQmCCve5nDdsgX63_tfyydqnN2Ok2HIlUOGV93mxYnOPh7ZOpuEtiE5pk" height="200" width="auto" /><br><br>county: Menard<br>city: Menard<br>address: 7066 FM 864 Fort McKavett, TX 76841<br>job number: <br>code: <br>Year: 1936<br>rthl: x<br>htc: <br>latitude: 30.824576<br>longitude: -100.1112442<br>digitized?: <br>markertext: Established March 14, 1852 by the United States war department as a protection to frontier settlers against hostile Indians. Named in honor of Captain Henry McKavett, who fell at the Battle of Monterrey, September 21, 1846. Evacuated by federal troops, March 22, 1859. Reoccupied April 1, 1868. Abandoned June 30, 1883. Image source: ozona.com<br>image url: http://www.ozona.com/storage/UserFileFolder/Fort_McKavett_Ruins_-_Med.JPG<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Menard</value>
+          </Data>
+          <Data name="city">
+            <value>Menard</value>
+          </Data>
+          <Data name="address">
+            <value>7066 FM 864 Fort McKavett, TX 76841</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1936.0</value>
+          </Data>
+          <Data name="rthl">
+            <value>x</value>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.824576</value>
+          </Data>
+          <Data name="longitude">
+            <value>-100.1112442</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value>Established March 14, 1852 by the United States war department as a protection to frontier settlers against hostile Indians. Named in honor of Captain Henry McKavett, who fell at the Battle of Monterrey, September 21, 1846. Evacuated by federal troops, March 22, 1859. Reoccupied April 1, 1868. Abandoned June 30, 1883. Image source: ozona.com</value>
+          </Data>
+          <Data name="image url">
+            <value>http://www.ozona.com/storage/UserFileFolder/Fort_McKavett_Ruins_-_Med.JPG</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/CXVCdNFedZ-mJ7w7aWGAorslGNm-EFnfKQHd5k9oInRTba6R_zqHMazEFkvz5skaCjFQmCCve5nDdsgX63_tfyydqnN2Ok2HIlUOGV93mxYnOPh7ZOpuEtiE5pk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -100.1112442,30.824576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Concho</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/g0JyyOfrpkssd9G0HqxKoAULFDAZtc3jqd_5feEjgRcj0WbZuuitHK5FSld5KdbSqh7q3qtTRijqLf-8G0r6VpRC-VmO32F9uw" height="200" width="auto" /><br><br>county: Tom Green<br>city: San Angelo<br>address: Intersection of Oakes and D St.<br>job number: <br>code: <br>Year: 1970<br>rthl: x<br>htc: <br>latitude: 31.45456<br>longitude: -100.4313146<br>digitized?: <br>markertext: The center of a line of forts extending from the northeastern border of Texas to El Paso. Was also northern point of southern chain of forts extending to Rio Grande, thence along that river to its mouth. Established 1867 (at then junction of Butterfield Trail, Goodnight Trail and road to San Antonio) by 4th Cavalry under Capt. George G. Huntt to protect frontier. By March 1, 1870, fort buildings were (in order of their construction) a commissary and quartermaster storehouse, hospital, five officers quarters, a magazine and two barracks-- all built of sandstone. Among those who commanded post were: Gen. Wm. R. Shafter (later major general of volunteers, Spanish-American War; commanded troops at capture of Santiago de Cuba, July 1898); Maj. John P. Hatch (at one time fort was named in his honor); Gen. Wesley Merritt (first commander of Fort Davis after Civil War; was later superintendent of U. S. Military Academy at West Point); Gen. Ranald Slidell Mackenzie (who led attacks, from this and other forts, credited with defeat of Indian resistance in southwest); and Gen. Benjamin H. Grierson, commander of Negro troops of 10th Cavalry. On June 20, 1889, fort was abandoned as a military post and property passed into private ownership. (1970). Image source: fortconcho.com<br>image url: http://www.fortconcho.com/images/fortpics/hospital.jpg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Tom Green</value>
+          </Data>
+          <Data name="city">
+            <value>San Angelo</value>
+          </Data>
+          <Data name="address">
+            <value>Intersection of Oakes and D St.</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1970.0</value>
+          </Data>
+          <Data name="rthl">
+            <value>x</value>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>31.45456</value>
+          </Data>
+          <Data name="longitude">
+            <value>-100.4313146</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value>The center of a line of forts extending from the northeastern border of Texas to El Paso. Was also northern point of southern chain of forts extending to Rio Grande, thence along that river to its mouth. Established 1867 (at then junction of Butterfield Trail, Goodnight Trail and road to San Antonio) by 4th Cavalry under Capt. George G. Huntt to protect frontier. By March 1, 1870, fort buildings were (in order of their construction) a commissary and quartermaster storehouse, hospital, five officers quarters, a magazine and two barracks-- all built of sandstone. Among those who commanded post were: Gen. Wm. R. Shafter (later major general of volunteers, Spanish-American War; commanded troops at capture of Santiago de Cuba, July 1898); Maj. John P. Hatch (at one time fort was named in his honor); Gen. Wesley Merritt (first commander of Fort Davis after Civil War; was later superintendent of U. S. Military Academy at West Point); Gen. Ranald Slidell Mackenzie (who led attacks, from this and other forts, credited with defeat of Indian resistance in southwest); and Gen. Benjamin H. Grierson, commander of Negro troops of 10th Cavalry. On June 20, 1889, fort was abandoned as a military post and property passed into private ownership. (1970). Image source: fortconcho.com</value>
+          </Data>
+          <Data name="image url">
+            <value>http://www.fortconcho.com/images/fortpics/hospital.jpg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/g0JyyOfrpkssd9G0HqxKoAULFDAZtc3jqd_5feEjgRcj0WbZuuitHK5FSld5KdbSqh7q3qtTRijqLf-8G0r6VpRC-VmO32F9uw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -100.4313146,31.45456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clarksville</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/eDZikj3I-NqX5QKIlLoMRHL5_EZeStWwZOPwGcOCAXHBbqqidSlojvvHuW-Pvpez0201MT0QeetEt6Dn9zSIu48o" height="200" width="auto" /><br><br>county: Travis County<br>city: Austin <br>address: 1725 West 11th Street Austin, TX 78703<br>job number: <br>code: <br>Year: 1973<br>rthl: <br>htc: <br>latitude: 30.281196<br>longitude: -97.762787<br>digitized?: <br>markertext: Historic Black neighborhood. Settled in 1871 when Charles Clark, a freedman, bought two acres of land on present Tenth Street. This formed the nucleus of the community that Clark, according to tradition, wanted to start for his people. For years Clarksville lay in a wilderness on the outskirts of Austin, crossed only by a few country roads. Gradually it grew into a closely knit village, with activities centering on the Sweet Home Baptist Church. At first members met in the home of Mrs. Mary Smith. Then, in 1882, they purchased this site. Religious fervor was strong in those days, and the residents often stood on their porches at dawn to begin the day with a hymn. The first church building was erected in the 1880s; present (fourth) one in 1935. Among Clarksville's distinguished citizens was Elias Mayes, who served in the Texas Legislature in 1879 and 1889. One of the first ministers of Sweet Home, The Rev. Jacob Fontaine, was instrumental in unifying Negro Baptist churches in Austin and started the first Negro newspaper, "The Gold Dollar," in the city. As of 1973, Clarksville encompassed over 9 square blocks, bounded by Tenth, West Lynn, and Waterston streets and the Missouri-Pacific Railroad tracks. (1973). Image source: sweethomebc.org<br>image url: http://www.sweethomembc.org/images/homepage.jpg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Travis County</value>
+          </Data>
+          <Data name="city">
+            <value>Austin </value>
+          </Data>
+          <Data name="address">
+            <value>1725 West 11th Street Austin, TX 78703</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1973.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.281196</value>
+          </Data>
+          <Data name="longitude">
+            <value>-97.762787</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[Historic Black neighborhood. Settled in 1871 when Charles Clark, a freedman, bought two acres of land on present Tenth Street. This formed the nucleus of the community that Clark, according to tradition, wanted to start for his people. For years Clarksville lay in a wilderness on the outskirts of Austin, crossed only by a few country roads. Gradually it grew into a closely knit village, with activities centering on the Sweet Home Baptist Church. At first members met in the home of Mrs. Mary Smith. Then, in 1882, they purchased this site. Religious fervor was strong in those days, and the residents often stood on their porches at dawn to begin the day with a hymn. The first church building was erected in the 1880s; present (fourth) one in 1935. Among Clarksville's distinguished citizens was Elias Mayes, who served in the Texas Legislature in 1879 and 1889. One of the first ministers of Sweet Home, The Rev. Jacob Fontaine, was instrumental in unifying Negro Baptist churches in Austin and started the first Negro newspaper, "The Gold Dollar," in the city. As of 1973, Clarksville encompassed over 9 square blocks, bounded by Tenth, West Lynn, and Waterston streets and the Missouri-Pacific Railroad tracks. (1973). Image source: sweethomebc.org]]></value>
+          </Data>
+          <Data name="image url">
+            <value>http://www.sweethomembc.org/images/homepage.jpg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/eDZikj3I-NqX5QKIlLoMRHL5_EZeStWwZOPwGcOCAXHBbqqidSlojvvHuW-Pvpez0201MT0QeetEt6Dn9zSIu48o</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.762787,30.281196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Colored Baptist Church</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/3_uXj53gWosoyHXIcqnbpW6yKaRfg6dsjOLsuN3dqZAFmO6HFcjMu_V2EA-NpElifZCACDMSJ_pmSR4Co5futMMO9WV8gDnZjB8Qbx_CcKHKXWRIAjC_Xjc0el5p9X2cUEEHQUalmNCpx1Vr__qqOPVV8g2rZZQhenX9kARypxJJFaXocgzuhNBBnkUK9Y07imRAEXHMNpLs70b32II5kjRMz68NGZSYrGH4_e5Jo8_t_-sS7e4" height="200" width="auto" /><br><br>county: Travis<br>city: Austin<br>address: 4805 Heflin Lane Austin, Texas 78721<br>job number: <br>code: <br>Year: 1981<br>rthl: <br>htc: <br>latitude: 30.284429<br>longitude: -97.680425<br>digitized?: <br>markertext: The oldest Black Baptist church in the city, this fellowship grew from the slave membership of the First Baptist Church of Austin. In 1864 the committee on religious conditions of the colored population recommended to the churches of the Austin Baptist Association that separate services be provided for their black members. Soon after, slaves in the First Baptist Congregation began attending special wrship services conducted by a white missionary and a slave preacher, the Rev Jacob Fontaine, a prominent black leader of the city. In 1867, under the direction of the Rev. Fontaine, the First Baptist Church was formally organized with thirteen charter members. Early services for the new congregation were held in a blacksmith shop at the southwest corner of tenth and congress, and in the basement of the First Baptist Church. In 1869, during the administration of Mayor Leader Brown, the city of Austin deeded the church a tract of land at the corner of ninth and Guadalupe for construction of the first sanctuary. A significant force in the development of Austin’s black community since the 1860s, the church has been led by many prominent Baptist preachers. (1981). Image source: txhillcountrytrail.com<br>image url: http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HC-site-FirstColoredBaptistChurch.jpg?itok=ug31ExVT<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Travis</value>
+          </Data>
+          <Data name="city">
+            <value>Austin</value>
+          </Data>
+          <Data name="address">
+            <value>4805 Heflin Lane Austin, Texas 78721</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1981.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.284429</value>
+          </Data>
+          <Data name="longitude">
+            <value>-97.680425</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value>The oldest Black Baptist church in the city, this fellowship grew from the slave membership of the First Baptist Church of Austin. In 1864 the committee on religious conditions of the colored population recommended to the churches of the Austin Baptist Association that separate services be provided for their black members. Soon after, slaves in the First Baptist Congregation began attending special wrship services conducted by a white missionary and a slave preacher, the Rev Jacob Fontaine, a prominent black leader of the city. In 1867, under the direction of the Rev. Fontaine, the First Baptist Church was formally organized with thirteen charter members. Early services for the new congregation were held in a blacksmith shop at the southwest corner of tenth and congress, and in the basement of the First Baptist Church. In 1869, during the administration of Mayor Leader Brown, the city of Austin deeded the church a tract of land at the corner of ninth and Guadalupe for construction of the first sanctuary. A significant force in the development of Austin’s black community since the 1860s, the church has been led by many prominent Baptist preachers. (1981). Image source: txhillcountrytrail.com</value>
+          </Data>
+          <Data name="image url">
+            <value>http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HC-site-FirstColoredBaptistChurch.jpg?itok=ug31ExVT</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/3_uXj53gWosoyHXIcqnbpW6yKaRfg6dsjOLsuN3dqZAFmO6HFcjMu_V2EA-NpElifZCACDMSJ_pmSR4Co5futMMO9WV8gDnZjB8Qbx_CcKHKXWRIAjC_Xjc0el5p9X2cUEEHQUalmNCpx1Vr__qqOPVV8g2rZZQhenX9kARypxJJFaXocgzuhNBBnkUK9Y07imRAEXHMNpLs70b32II5kjRMz68NGZSYrGH4_e5Jo8_t_-sS7e4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.680425,30.284429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>George Washington Carver Branch Library and Museum</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/kkDewfNoAtIqSDZRuvPUF7T-tWT_wjjASTq6KZFt_UcJl-mSGFC2dAnPoFkJRp5gmVxIKVFdpSx9GC6P7Do_rnzaIgzMQcKsHJ7krmc" height="200" width="auto" /><br><br>county: Travis<br>city: Austin<br>address: 1165 Angelina St, Austin, TX 78702<br>job number: <br>code: <br>Year: 1977<br>rthl: <br>htc: <br>latitude: 30.270021<br>longitude: -97.723862<br>digitized?: <br>markertext: In Feb. 1926 the Austin Public Library opened in a room over a downtown store. Within months, the books were moved to this structure, built at Guadalupe and ninth st. across from Woolridge Park. In 1933, with completion of a permanent library facility, the original building was relocated here to meet the request of the black community for its own library. The frame structure was brick veneered and named for black educate George Washington Carver. Directed by Hattie Henson, 1933-1943, this was the first branch in the Austin Library System. Image source: library.austintexas.gov<br>image url: http://library.austintexas.gov/sites/default/files/acb.jpg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Travis</value>
+          </Data>
+          <Data name="city">
+            <value>Austin</value>
+          </Data>
+          <Data name="address">
+            <value>1165 Angelina St, Austin, TX 78702</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1977.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.270021</value>
+          </Data>
+          <Data name="longitude">
+            <value>-97.723862</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value>In Feb. 1926 the Austin Public Library opened in a room over a downtown store. Within months, the books were moved to this structure, built at Guadalupe and ninth st. across from Woolridge Park. In 1933, with completion of a permanent library facility, the original building was relocated here to meet the request of the black community for its own library. The frame structure was brick veneered and named for black educate George Washington Carver. Directed by Hattie Henson, 1933-1943, this was the first branch in the Austin Library System. Image source: library.austintexas.gov</value>
+          </Data>
+          <Data name="image url">
+            <value>http://library.austintexas.gov/sites/default/files/acb.jpg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/kkDewfNoAtIqSDZRuvPUF7T-tWT_wjjASTq6KZFt_UcJl-mSGFC2dAnPoFkJRp5gmVxIKVFdpSx9GC6P7Do_rnzaIgzMQcKsHJ7krmc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.723862,30.270021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victory Grill</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/v9tC4tShI7upRJ_zl_r04QTkpI90bx7-vmRv4Ivb81bY6bnW-DMw2ScLtESC0KBLd_jfeREcxdpndyqUb1iChpmKhIKWsoCC1aLqTgNdHbIJj4mkVmdHxfHHmNNV" height="200" width="auto" /><br><br>county: Travis<br>city: Austin<br>address: 1104 E. 11th St. Austin, TX<br>job number: <br>code: <br>Year: 2009<br>rthl: <br>htc: <br>latitude: 30.269175<br>longitude: -97.728562<br>digitized?: <br>markertext: During World War II, segregation prevented African American servicemen from enjoying most civilian restaurants and recreational facilities. In an effort to address this issue, Austin civic leaders urged the city, through its “Negro War Recreation Council,” to provide recreational sites for servicemen on leave from military posts. One such project, a gymnasium-auditorium complex in Rosewood Park, opened in April 1944 and was dedicated to Doris Miller, an African American Pearl Harbor hero. By war’s end, African American servicemen had added but limited “R&R” sites in Austin. Johnny Holmes responded to this need when he opened the original Victory Grill (a.k.a. Victory Cafe) in celebration of VJ Day (Victory over Japan Day, August 15, 1945) in a converted icehouse on East 11th Street. Holmes created a venue in East Austin which provided returning African American servicemen with both an accessible dining establishment and blues and jazz entertainment. In 1947, with support from his devoted wife, Basyle Winifred Vanzandt, Holmes built a new structure at 1104 E. 11th Street to house the new Victory Grill. The enclosed open-air patio in the rear, dubbed the Kovac Room, became a well-known stop on the “Chitlin’ Circuit,” a collection of African American music venues across the west and south. The relatively small capacity of the Kovac Room and desegregation in the 1960s eventually led to the decline of the Victory Grill as African American musicians found new venues across the nation where they could perform, and the Victory Grill closed in 1973. Following Holmes’ death in 2001, his children succeeded in re-opening the beloved site. Johnny Holmes was extremely passionate about the Victory Grill being of service to the community and its patrons, and he took a special interest in making soldiers feel at home. Listed in the National Register of Historic Places in 1998, the Victory Grill is a home front cultural landmark of the World War II African American experience. Image source: wikimedia.com<br>image url: http://www.eastendculturaldistrict.org/cms/sites/default/files/1104%20E%2011th.3.JPG<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Travis</value>
+          </Data>
+          <Data name="city">
+            <value>Austin</value>
+          </Data>
+          <Data name="address">
+            <value>1104 E. 11th St. Austin, TX</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>2009.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.269175</value>
+          </Data>
+          <Data name="longitude">
+            <value>-97.728562</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[During World War II, segregation prevented African American servicemen from enjoying most civilian restaurants and recreational facilities. In an effort to address this issue, Austin civic leaders urged the city, through its “Negro War Recreation Council,” to provide recreational sites for servicemen on leave from military posts. One such project, a gymnasium-auditorium complex in Rosewood Park, opened in April 1944 and was dedicated to Doris Miller, an African American Pearl Harbor hero. By war’s end, African American servicemen had added but limited “R&R” sites in Austin. Johnny Holmes responded to this need when he opened the original Victory Grill (a.k.a. Victory Cafe) in celebration of VJ Day (Victory over Japan Day, August 15, 1945) in a converted icehouse on East 11th Street. Holmes created a venue in East Austin which provided returning African American servicemen with both an accessible dining establishment and blues and jazz entertainment. In 1947, with support from his devoted wife, Basyle Winifred Vanzandt, Holmes built a new structure at 1104 E. 11th Street to house the new Victory Grill. The enclosed open-air patio in the rear, dubbed the Kovac Room, became a well-known stop on the “Chitlin’ Circuit,” a collection of African American music venues across the west and south. The relatively small capacity of the Kovac Room and desegregation in the 1960s eventually led to the decline of the Victory Grill as African American musicians found new venues across the nation where they could perform, and the Victory Grill closed in 1973. Following Holmes’ death in 2001, his children succeeded in re-opening the beloved site. Johnny Holmes was extremely passionate about the Victory Grill being of service to the community and its patrons, and he took a special interest in making soldiers feel at home. Listed in the National Register of Historic Places in 1998, the Victory Grill is a home front cultural landmark of the World War II African American experience. Image source: wikimedia.com]]></value>
+          </Data>
+          <Data name="image url">
+            <value>http://www.eastendculturaldistrict.org/cms/sites/default/files/1104%20E%2011th.3.JPG</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/v9tC4tShI7upRJ_zl_r04QTkpI90bx7-vmRv4Ivb81bY6bnW-DMw2ScLtESC0KBLd_jfeREcxdpndyqUb1iChpmKhIKWsoCC1aLqTgNdHbIJj4mkVmdHxfHHmNNV</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.728562,30.269175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Webberville</name>
+        <description><![CDATA[county: Travis<br>city: Austin<br>address: <br>job number: <br>code: <br>Year: 1997<br>rthl: <br>htc: <br>latitude: 30.26905<br>longitude: -97.730748<br>digitized?: <br>markertext: This community was named for John F. Webber (1793-1882) who received a land grant in 1827 and settled in this area with his African American wife and children. A post office was established in 1846 for Webber's Prairie, and by 1853 the name was changed to Webberville. Based on a cotton farming economy, the town later included grist mills, cotton mills, general stores, schools, churches, and a cemetery. The post office was discontinued in 1903. A ferry crossing on the Colorado River ceased operation in the 1920s. (1997)<br>image url: n/a<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Travis</value>
+          </Data>
+          <Data name="city">
+            <value>Austin</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1997.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.26905</value>
+          </Data>
+          <Data name="longitude">
+            <value>-97.730748</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[This community was named for John F. Webber (1793-1882) who received a land grant in 1827 and settled in this area with his African American wife and children. A post office was established in 1846 for Webber's Prairie, and by 1853 the name was changed to Webberville. Based on a cotton farming economy, the town later included grist mills, cotton mills, general stores, schools, churches, and a cemetery. The post office was discontinued in 1903. A ferry crossing on the Colorado River ceased operation in the 1920s. (1997)]]></value>
+          </Data>
+          <Data name="image url">
+            <value>n/a</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.730748,30.26905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Webberville Ebenezer Baptist Church</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Ra5mPY6-IguBGGDQcJM9H77Tny0iRVYm9fyIDDQI3YWGQH3nm3Z__sohJ9zeqJ3Yof0H11A-VRyWsIifsZQHjGTWIpcKjatQHzu83eBCM65qUaoeDqnhhvmnlAUfMzcM8X7umkmbweSn_qESeDLDAamFfhXLYhZTvCVNGjz4DA_stZ7lfK8-Qq41MIJK3qeEOiH7iUPoEngxpWnGzJk93txJaoU9KFsS-UiOwKg" height="200" width="auto" /><br><br>county: Travis<br>city: Austin<br>address: FM 969 Austin, Texas 78721<br>job number: <br>code: <br>Year: 1993<br>rthl: <br>htc: <br>latitude: 30.26905<br>longitude: -97.730748<br>digitized?: <br>markertext: This church traces its origin to the plight of Anglo American John F. Webber, who along with his African American wife and children, settled in this sparsely populated area of Texas in 1839 to escape the racism they had experienced in towns and cities. A community known as Webber Prairie consisting of plantation owners and their slaves developed here. Racial prejudice caused Webber to sell his land to Colonel John Banks in 1851 and move his family to Mexico. In 1868 Matthew Duty donated one acre of land here for the purpose of building a church for the area's recently emancipated African Americans. That year the Webberville Ebenezer Baptist Church was organized as a mission of the St. John Regular Missionary Baptist Association. Charter members included Thomas Reads, Suns Johnson, Lowens Berry, and Mary Green. The Rev. Wesley Barrow served as Ebenezer's first pastor. In 1956 several members of the congregation left Ebenezer Baptist to form a church in Austin which became known as the New Light Ebenezer Baptist Church. Ebenezer Baptist remains active despite the relocation of many of Webberville's families to nearby urban centers. Former members continue to gather here on special occasions and holidays. Image source: txhillcountrytraill.com<br>image url: http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HILLCO-sites-webberville.jpg?itok=upBfF4kc<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Travis</value>
+          </Data>
+          <Data name="city">
+            <value>Austin</value>
+          </Data>
+          <Data name="address">
+            <value>FM 969 Austin, Texas 78721</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1993.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.26905</value>
+          </Data>
+          <Data name="longitude">
+            <value>-97.730748</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[This church traces its origin to the plight of Anglo American John F. Webber, who along with his African American wife and children, settled in this sparsely populated area of Texas in 1839 to escape the racism they had experienced in towns and cities. A community known as Webber Prairie consisting of plantation owners and their slaves developed here. Racial prejudice caused Webber to sell his land to Colonel John Banks in 1851 and move his family to Mexico. In 1868 Matthew Duty donated one acre of land here for the purpose of building a church for the area's recently emancipated African Americans. That year the Webberville Ebenezer Baptist Church was organized as a mission of the St. John Regular Missionary Baptist Association. Charter members included Thomas Reads, Suns Johnson, Lowens Berry, and Mary Green. The Rev. Wesley Barrow served as Ebenezer's first pastor. In 1956 several members of the congregation left Ebenezer Baptist to form a church in Austin which became known as the New Light Ebenezer Baptist Church. Ebenezer Baptist remains active despite the relocation of many of Webberville's families to nearby urban centers. Former members continue to gather here on special occasions and holidays. Image source: txhillcountrytraill.com]]></value>
+          </Data>
+          <Data name="image url">
+            <value>http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HILLCO-sites-webberville.jpg?itok=upBfF4kc</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Ra5mPY6-IguBGGDQcJM9H77Tny0iRVYm9fyIDDQI3YWGQH3nm3Z__sohJ9zeqJ3Yof0H11A-VRyWsIifsZQHjGTWIpcKjatQHzu83eBCM65qUaoeDqnhhvmnlAUfMzcM8X7umkmbweSn_qESeDLDAamFfhXLYhZTvCVNGjz4DA_stZ7lfK8-Qq41MIJK3qeEOiH7iUPoEngxpWnGzJk93txJaoU9KFsS-UiOwKg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.730748,30.26905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Horeb Baptist Church</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Twdx8Ry542C-91LNO9t6CfYOGOstaWF440iyOgEZ-ycgNcHflnRgCyVJ_pj38cRu1J4fnDkJSMzGLIcDcRkeJ5trvBVF9b6b2Vj7znavz9o_oqfhHfIxYWpQp4Dq9YtHaIAjSN8VeQXUuOK-LcqCg8TQjbPQAbU8QdD_0lBXyKWMi2MItG3ARZo7CRR05Nl0EONUzAtSQPA4EwWN87aL7GldPG_8PtgUnLk1RH8G" height="200" width="auto" /><br><br>county: Blanco<br>city: Blanco<br>address: 593 Peyton Colony Rd, Blanco, TX 78606<br>job number: <br>code: <br>Year: 1988<br>rthl: <br>htc: <br>latitude: 30.120731<br>longitude: -98.3072388<br>digitized?: <br>markertext: Born a slave in Virginia, Peyton Roberts became a freedman in Caldwell County, Texas, at the close of the Civil War. He soon moved west to this area and the settlement that developed around his farm became known as Peyton Colony. In 1874, under the direction of the Rev. Jack Burch, residents of the community established the Mt. Horeb Baptist Church. Early worship services were held in a log building also used as a school. Since the reconstruction era, Mt. Horeb has served as a focal point for the community and for a widespread rural area. (1988). Image source: txhillcountrytrail.com<br>image url: http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HILLCO-site-MtHorebBlanco.jpg?itok=zOe6bMLM<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Blanco</value>
+          </Data>
+          <Data name="city">
+            <value>Blanco</value>
+          </Data>
+          <Data name="address">
+            <value>593 Peyton Colony Rd, Blanco, TX 78606</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1988.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.120731</value>
+          </Data>
+          <Data name="longitude">
+            <value>-98.3072388</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value>Born a slave in Virginia, Peyton Roberts became a freedman in Caldwell County, Texas, at the close of the Civil War. He soon moved west to this area and the settlement that developed around his farm became known as Peyton Colony. In 1874, under the direction of the Rev. Jack Burch, residents of the community established the Mt. Horeb Baptist Church. Early worship services were held in a log building also used as a school. Since the reconstruction era, Mt. Horeb has served as a focal point for the community and for a widespread rural area. (1988). Image source: txhillcountrytrail.com</value>
+          </Data>
+          <Data name="image url">
+            <value>http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HILLCO-site-MtHorebBlanco.jpg?itok=zOe6bMLM</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/Twdx8Ry542C-91LNO9t6CfYOGOstaWF440iyOgEZ-ycgNcHflnRgCyVJ_pj38cRu1J4fnDkJSMzGLIcDcRkeJ5trvBVF9b6b2Vj7znavz9o_oqfhHfIxYWpQp4Dq9YtHaIAjSN8VeQXUuOK-LcqCg8TQjbPQAbU8QdD_0lBXyKWMi2MItG3ARZo7CRR05Nl0EONUzAtSQPA4EwWN87aL7GldPG_8PtgUnLk1RH8G</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.3072388,30.120731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peyton Colony Lime Kiln</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/cPTmOzJmGYsh93Cm6ihBE_CPuyg6rBjwt_sObS2CPVv7xcgd2OaNOFTgF8gpIk7xDs5lA60IuOQOtC-RubQh3mMo0VAe4qyc4OYNI85GThS-RFhgH6MLw5grb0QtvRfFUbqNx7sUyizfbx3RTtPnqrSFGrRGgpg_qGmZa7ZvGYYG1xHzn27dPppWtlWd4v9ShWXWFTiBk7JasKHzlqQJRTLtZ5o3Zpk" height="200" width="auto" /><br><br>county: Blanco<br>city: Blanco<br>address: Roadside park on FM 165 Blanco, Texas 78606<br>job number: <br>code: <br>Year: 1988<br>rthl: <br>htc: <br>latitude: 30.113513<br>longitude: -98.312531<br>digitized?: <br>markertext: Peyton Colony was a freedmen's community established in the 1860s under the leadership of former slave Peyton Roberts. In addition to homes, the community included a local school and Mt. Horeb Baptist Church. This lime kiln was built by Peyton Roberts and his neighbors to provide high quality materials with which to make mortar for buildings in Blanco County, some of which remain today. The kiln was restored in the 1960s in conjunction with the construction of a roadside park at the site. It stands as a reminder of the efforts of ex-slaves to begin new lives. (1988) Incising: Restored by Blanco Lions Club. Image source: txhillcountrytrail.com<br>image url: http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HC-site-PeytonKiln.jpg?itok=8EN0DwxK<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Blanco</value>
+          </Data>
+          <Data name="city">
+            <value>Blanco</value>
+          </Data>
+          <Data name="address">
+            <value>Roadside park on FM 165 Blanco, Texas 78606</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1988.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.113513</value>
+          </Data>
+          <Data name="longitude">
+            <value>-98.312531</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[Peyton Colony was a freedmen's community established in the 1860s under the leadership of former slave Peyton Roberts. In addition to homes, the community included a local school and Mt. Horeb Baptist Church. This lime kiln was built by Peyton Roberts and his neighbors to provide high quality materials with which to make mortar for buildings in Blanco County, some of which remain today. The kiln was restored in the 1960s in conjunction with the construction of a roadside park at the site. It stands as a reminder of the efforts of ex-slaves to begin new lives. (1988) Incising: Restored by Blanco Lions Club. Image source: txhillcountrytrail.com]]></value>
+          </Data>
+          <Data name="image url">
+            <value>http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HC-site-PeytonKiln.jpg?itok=8EN0DwxK</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/cPTmOzJmGYsh93Cm6ihBE_CPuyg6rBjwt_sObS2CPVv7xcgd2OaNOFTgF8gpIk7xDs5lA60IuOQOtC-RubQh3mMo0VAe4qyc4OYNI85GThS-RFhgH6MLw5grb0QtvRfFUbqNx7sUyizfbx3RTtPnqrSFGrRGgpg_qGmZa7ZvGYYG1xHzn27dPppWtlWd4v9ShWXWFTiBk7JasKHzlqQJRTLtZ5o3Zpk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.312531,30.113513,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wesley Chapel African Methodist Episcopal Church</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/6FO7oG3YShqsTv60takJYokwfy1LlMyFFEyNQbgPJDUJnUkzpEGD7JsKgjnlzGlTNGFBSE8_QUFoUso1LN5MH5rprkuCkzFwbBfX7yGdvU9JPlTQ6TXTW9OZmP4O1_vTxNDEqT114XasEmqh8oTMZaVOFg5nRCddrl1JFttb7-1_BhR5Ukyl0rbYLDLiQgpJ0g1D60S5u9q2NTd4UJyNrdtDEWTLtokB_Q" height="200" width="auto" /><br><br>county: Hays<br>city: San Marcos<br>address: 224 S. Fredericksburg St. San Marcos, Texas<br>job number: <br>code: <br>Year: 1992<br>rthl: <br>htc: <br>latitude: 29.879385<br>longitude: -97.942107<br>digitized?: <br>markertext: Traces its history to 1875, and is believed to be the oldest African American congregation in San Marcos. the first church building was erected on this site in 1879, and later was replaced by a succession of structures. The church operated a Freedmen's school for former slaves and their children in the 1870s, and has continued to support numerous community and charitable endeavors through the years. It remains an important part of the history of San Marcos and Hays County. Image source: txhillcountrytrail.com<br>image url: http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HC-site-WesleyChapel.jpg?itok=EJQ1PmI-<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Hays</value>
+          </Data>
+          <Data name="city">
+            <value>San Marcos</value>
+          </Data>
+          <Data name="address">
+            <value>224 S. Fredericksburg St. San Marcos, Texas</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1992.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>29.879385</value>
+          </Data>
+          <Data name="longitude">
+            <value>-97.942107</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[Traces its history to 1875, and is believed to be the oldest African American congregation in San Marcos. the first church building was erected on this site in 1879, and later was replaced by a succession of structures. The church operated a Freedmen's school for former slaves and their children in the 1870s, and has continued to support numerous community and charitable endeavors through the years. It remains an important part of the history of San Marcos and Hays County. Image source: txhillcountrytrail.com]]></value>
+          </Data>
+          <Data name="image url">
+            <value>http://txhillcountrytrail.com/public/upload/styles/detail_city_site/public/txhillcountrytrail_com/images/sites/HC-site-WesleyChapel.jpg?itok=EJQ1PmI-</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/6FO7oG3YShqsTv60takJYokwfy1LlMyFFEyNQbgPJDUJnUkzpEGD7JsKgjnlzGlTNGFBSE8_QUFoUso1LN5MH5rprkuCkzFwbBfX7yGdvU9JPlTQ6TXTW9OZmP4O1_vTxNDEqT114XasEmqh8oTMZaVOFg5nRCddrl1JFttb7-1_BhR5Ukyl0rbYLDLiQgpJ0g1D60S5u9q2NTd4UJyNrdtDEWTLtokB_Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.942107,29.879385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>African American Catholic Community</name>
+        <description><![CDATA[county: Washington<br>city: Brenham<br>address: <br>job number: <br>code: <br>Year: 1996<br>rthl: <br>htc: <br>latitude: 30.323313<br>longitude: -96.204014<br>digitized?: <br>markertext: Believed to be the oldest African American Catholic community in Texas, this settlement traces its history to the late 1840s. The Spann families migrated to Hidalgo from South Carolina in 1848, bringing several slaves to the area. A Catholic mission was established for the new settlers and the slave families worshipped with them at a log cabin called the Holy Rosary or the Old Spann Chapel. The Old Catholic Cemetery, located near the log cabin, was the Spann family cemetery. The Spanns and the Sweeds (the slave families) are buried there, and it is still in use today. In 1888 Father Martin Francis Huhn organized a mission specifically for the African American community, conducting Mass monthly in the log chapel. A separate chapel was constructed in 1936 by Father George Elmendorf and named Sacred Heart. In 1969 a church building and community hall were constructed at Post Oak on land deeded from Spann descendants to the Sweeds. The church structure was named the Blessed Virgin Mary Chapel. A new church building was completed in 1995 to serve the African American community in the Brenham area, descendants of the original Sweed families.<br>image url: http://texastimetravel.toursphere.com/project-assets/2043/img/7ebfe6099c7e43b4c2353804dbe506b4a5b72da17d83dee1717e707d.jpg.1000x727_q85.jpg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Washington</value>
+          </Data>
+          <Data name="city">
+            <value>Brenham</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1996.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>30.323313</value>
+          </Data>
+          <Data name="longitude">
+            <value>-96.204014</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value>Believed to be the oldest African American Catholic community in Texas, this settlement traces its history to the late 1840s. The Spann families migrated to Hidalgo from South Carolina in 1848, bringing several slaves to the area. A Catholic mission was established for the new settlers and the slave families worshipped with them at a log cabin called the Holy Rosary or the Old Spann Chapel. The Old Catholic Cemetery, located near the log cabin, was the Spann family cemetery. The Spanns and the Sweeds (the slave families) are buried there, and it is still in use today. In 1888 Father Martin Francis Huhn organized a mission specifically for the African American community, conducting Mass monthly in the log chapel. A separate chapel was constructed in 1936 by Father George Elmendorf and named Sacred Heart. In 1969 a church building and community hall were constructed at Post Oak on land deeded from Spann descendants to the Sweeds. The church structure was named the Blessed Virgin Mary Chapel. A new church building was completed in 1995 to serve the African American community in the Brenham area, descendants of the original Sweed families.</value>
+          </Data>
+          <Data name="image url">
+            <value>http://texastimetravel.toursphere.com/project-assets/2043/img/7ebfe6099c7e43b4c2353804dbe506b4a5b72da17d83dee1717e707d.jpg.1000x727_q85.jpg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.204014,30.323313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Norris Wright Cuney</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/vk8p7UT8rp6DHgvjlSwHy12IciytDKmUhTqBPuaSPHmREo8qspMl6mU-GQEXHXnRCAsQvL7Be1BW8ni2u9a61pMJjr47-zODQq0RTqwkky29dU8G9muYVTsLoXr8CEPris_Gmbsvp1vF0lzGt-VkEoE2cK1TkS8E4GSagXSetCz-9mPiug" height="200" width="auto" /><br><br>county: Galveston<br>city: Galveston<br>address: 722 Moody Ave Galveston TX<br>job number: <br>code: <br>Year: 1989<br>rthl: <br>htc: <br>latitude: 29.303152<br>longitude: -100.7903853<br>digitized?: <br>markertext: (1846-1898) Born a slave on the Waller County plantation of his father, Philip Cuney, Norris Wright Cuney was sent to Wyle Street School in Pennsylvania for an early education. At the age of seventeen he moved to St. Louis and found employment on Mississippi River steamboats. Following the Civil War Cuney moved to Galveston, where in 1867 he helped care for victims of the island's yellow fever epidemic. Interested in politics, he became a leader in the local Republican Party, eventually rising to high office in the state and national party organizations. He served as county agent in 1872, and in 1872 was appointed inspector of customs for the District of Texas, a position he held until he was elected Galveston's first black alderman in 1883. As a leader in the Republican Party, Cuney served as chairman of the state convention in 1882 and as a delegate to the national conventions in 1876, 1880, 1884, and 1888. He was appointed Collector of Customs by President Benjamin Harrison in 1889. Norris Wright Cuney was an important political and civic leader in Galveston. A park was dedicated in his memory in 1937. He is buried in Lake View Cemetery. (1989). Image source: texasescapes.com<br>image url: http://www.texasescapes.com/EastTexasTowns/CuneyTexas/NorrisWrightCuneyCN01074CenterforAmericanHistoryUTAustin.jpg<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Galveston</value>
+          </Data>
+          <Data name="city">
+            <value>Galveston</value>
+          </Data>
+          <Data name="address">
+            <value>722 Moody Ave Galveston TX</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1989.0</value>
+          </Data>
+          <Data name="rthl">
+            <value/>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>29.303152</value>
+          </Data>
+          <Data name="longitude">
+            <value>-100.7903853</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[(1846-1898) Born a slave on the Waller County plantation of his father, Philip Cuney, Norris Wright Cuney was sent to Wyle Street School in Pennsylvania for an early education. At the age of seventeen he moved to St. Louis and found employment on Mississippi River steamboats. Following the Civil War Cuney moved to Galveston, where in 1867 he helped care for victims of the island's yellow fever epidemic. Interested in politics, he became a leader in the local Republican Party, eventually rising to high office in the state and national party organizations. He served as county agent in 1872, and in 1872 was appointed inspector of customs for the District of Texas, a position he held until he was elected Galveston's first black alderman in 1883. As a leader in the Republican Party, Cuney served as chairman of the state convention in 1882 and as a delegate to the national conventions in 1876, 1880, 1884, and 1888. He was appointed Collector of Customs by President Benjamin Harrison in 1889. Norris Wright Cuney was an important political and civic leader in Galveston. A park was dedicated in his memory in 1937. He is buried in Lake View Cemetery. (1989). Image source: texasescapes.com]]></value>
+          </Data>
+          <Data name="image url">
+            <value>http://www.texasescapes.com/EastTexasTowns/CuneyTexas/NorrisWrightCuneyCN01074CenterforAmericanHistoryUTAustin.jpg</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/vk8p7UT8rp6DHgvjlSwHy12IciytDKmUhTqBPuaSPHmREo8qspMl6mU-GQEXHXnRCAsQvL7Be1BW8ni2u9a61pMJjr47-zODQq0RTqwkky29dU8G9muYVTsLoXr8CEPris_Gmbsvp1vF0lzGt-VkEoE2cK1TkS8E4GSagXSetCz-9mPiug</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -100.7903853,29.303152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reedy Chapel African Methodist Episcopal Church</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Zwzj2VZ_oB-9cV6C7VnqkKYc67eLlN2QXYyLjQlcAH5znZvubisJpmLPNt1OYHqGxklx5DAAIfbDLsH5vMFlHqiLI2AE79LutdSqFp-5L-Wu2j5Uj6BeptBiPVznMYzrG3lpkMQx24TTdv9doxgDJhdOmw0jdKy4PPryaBsUqX4MHuAxp3Gm64nF-iZTrlXe_SM_ymgbHCWr5MBri0zoSDj_0capYiR84CVhZTjHOLFH_g" height="200" width="auto" /><br><br>county: Galveston<br>city: Galveston<br>address: 2013 Broadway Avenue J Galveston TX<br>job number: <br>code: <br>Year: 1975<br>rthl: x<br>htc: <br>latitude: 29.301688<br>longitude: -100.7857685<br>digitized?: <br>markertext: Trustees of the Methodist Church purchased this lot in 1848 as a worship site for black slaves. Meetings were held outdoors until a building was erected in 1863. At the end of the Civil War (1865), ownership of the property was transferred to the recently-freed blacks, who organized the first African Methodist Episcopal Church in Texas. It was later named in honor of the Rev. Houston Reedy of Philadelphia, Pennsylvania, who served as the first pastor. The church survived several natural disasters, beginning in 1875, when the sanctuary was damaged in a storm. It was destroyed in 1885 by a fire that burned a large area of the city. Finished in 1887, the present structure was restored after the destructive hurricane of 1900, and repaired again in 1947 and 1957. More than 30 ministers have served this congregation, including the Rev. J. E. Edwards, the Rev. Josiah Armstrong, the Rev. M. D. Moody, the Rev. W. R. Beamer, the Rev. Louis H. Reynolds, the Rev. A. I. Henley, the Rev. R. C. Walker, the Rev. Erford Barker, the Rev. C. B. Bryant, and the current (1975) pastor, the Rev. Sylvester L. Green. Many of Galveston's prominent black citizens have been members of Reedy Chapel A. M. E. Church. Today the fellowship includes several descendants of the original founders. Image source: texasindependencetrail.com<br>image url: http://texasindependencetrail.com/public/upload/styles/detail_city_site/public/texasindependencetrail_com/images/sites/IND-site-Reedy-Chapel.jpg?itok=bXMayqXk<br>comments: ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="county">
+            <value>Galveston</value>
+          </Data>
+          <Data name="city">
+            <value>Galveston</value>
+          </Data>
+          <Data name="address">
+            <value>2013 Broadway Avenue J Galveston TX</value>
+          </Data>
+          <Data name="job number">
+            <value/>
+          </Data>
+          <Data name="code">
+            <value/>
+          </Data>
+          <Data name="Year">
+            <value>1975.0</value>
+          </Data>
+          <Data name="rthl">
+            <value>x</value>
+          </Data>
+          <Data name="htc">
+            <value/>
+          </Data>
+          <Data name="latitude">
+            <value>29.301688</value>
+          </Data>
+          <Data name="longitude">
+            <value>-100.7857685</value>
+          </Data>
+          <Data name="digitized?">
+            <value/>
+          </Data>
+          <Data name="markertext">
+            <value><![CDATA[Trustees of the Methodist Church purchased this lot in 1848 as a worship site for black slaves. Meetings were held outdoors until a building was erected in 1863. At the end of the Civil War (1865), ownership of the property was transferred to the recently-freed blacks, who organized the first African Methodist Episcopal Church in Texas. It was later named in honor of the Rev. Houston Reedy of Philadelphia, Pennsylvania, who served as the first pastor. The church survived several natural disasters, beginning in 1875, when the sanctuary was damaged in a storm. It was destroyed in 1885 by a fire that burned a large area of the city. Finished in 1887, the present structure was restored after the destructive hurricane of 1900, and repaired again in 1947 and 1957. More than 30 ministers have served this congregation, including the Rev. J. E. Edwards, the Rev. Josiah Armstrong, the Rev. M. D. Moody, the Rev. W. R. Beamer, the Rev. Louis H. Reynolds, the Rev. A. I. Henley, the Rev. R. C. Walker, the Rev. Erford Barker, the Rev. C. B. Bryant, and the current (1975) pastor, the Rev. Sylvester L. Green. Many of Galveston's prominent black citizens have been members of Reedy Chapel A. M. E. Church. Today the fellowship includes several descendants of the original founders. Image source: texasindependencetrail.com]]></value>
+          </Data>
+          <Data name="image url">
+            <value>http://texasindependencetrail.com/public/upload/styles/detail_city_site/public/texasindependencetrail_com/images/sites/IND-site-Reedy-Chapel.jpg?itok=bXMayqXk</value>
+          </Data>
+          <Data name="comments">
+            <value/>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/Zwzj2VZ_oB-9cV6C7VnqkKYc67eLlN2QXYyLjQlcAH5znZvubisJpmLPNt1OYHqGxklx5DAAIfbDLsH5vMFlHqiLI2AE79LutdSqFp-5L-Wu2j5Uj6BeptBiPVznMYzrG3lpkMQx24TTdv9doxgDJhdOmw0jdKy4PPryaBsUqX4MHuAxp3Gm64nF-iZTrlXe_SM_ymgbHCWr5MBri0zoSDj_0capYiR84CVhZTjHOLFH_g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -100.7857685,29.301688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

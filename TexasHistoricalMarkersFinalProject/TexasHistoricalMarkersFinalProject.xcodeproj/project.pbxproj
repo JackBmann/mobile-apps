@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61BCF79AB27D5BE09AAFC472 /* libPods-TexasHistoricalMarkersFinalProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E609EC1857571C440F1F66A /* libPods-TexasHistoricalMarkersFinalProject.a */; };
+		C8A586721FE30796003BF48D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A586711FE30796003BF48D /* AppDelegate.swift */; };
+		C8A586741FE30796003BF48D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A586731FE30796003BF48D /* ViewController.swift */; };
+		C8A586771FE30796003BF48D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A586751FE30796003BF48D /* Main.storyboard */; };
+		C8A586791FE30796003BF48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A586781FE30796003BF48D /* Assets.xcassets */; };
+		C8A5867C1FE30796003BF48D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A5867A1FE30796003BF48D /* LaunchScreen.storyboard */; };
+		C8A586871FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A586861FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests.swift */; };
+		C8A586921FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A586911FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8A586831FE30796003BF48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A586661FE30796003BF48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A5866D1FE30796003BF48D;
+			remoteInfo = TexasHistoricalMarkersFinalProject;
+		};
+		C8A5868E1FE30796003BF48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A586661FE30796003BF48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A5866D1FE30796003BF48D;
+			remoteInfo = TexasHistoricalMarkersFinalProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E609EC1857571C440F1F66A /* libPods-TexasHistoricalMarkersFinalProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TexasHistoricalMarkersFinalProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8443FAB1FE318B200580E49 /* GMU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GMU-Bridging-Header.h"; sourceTree = "<group>"; };
+		C8A5866E1FE30796003BF48D /* TexasHistoricalMarkersFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TexasHistoricalMarkersFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A586711FE30796003BF48D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8A586731FE30796003BF48D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8A586761FE30796003BF48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8A586781FE30796003BF48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8A5867B1FE30796003BF48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8A5867D1FE30796003BF48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A586821FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexasHistoricalMarkersFinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A586861FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexasHistoricalMarkersFinalProjectTests.swift; sourceTree = "<group>"; };
+		C8A586881FE30796003BF48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A5868D1FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TexasHistoricalMarkersFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A586911FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexasHistoricalMarkersFinalProjectUITests.swift; sourceTree = "<group>"; };
+		C8A586931FE30796003BF48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC267187D505A7CE5AEA57E /* Pods-TexasHistoricalMarkersFinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TexasHistoricalMarkersFinalProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TexasHistoricalMarkersFinalProject/Pods-TexasHistoricalMarkersFinalProject.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF101583AC0BFE3287CEB3C /* Pods-TexasHistoricalMarkersFinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TexasHistoricalMarkersFinalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TexasHistoricalMarkersFinalProject/Pods-TexasHistoricalMarkersFinalProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8A5866B1FE30796003BF48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BCF79AB27D5BE09AAFC472 /* libPods-TexasHistoricalMarkersFinalProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A5867F1FE30796003BF48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A5868A1FE30796003BF48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E21294D0D8472EDB527115 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDC267187D505A7CE5AEA57E /* Pods-TexasHistoricalMarkersFinalProject.debug.xcconfig */,
+				FAF101583AC0BFE3287CEB3C /* Pods-TexasHistoricalMarkersFinalProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21FBC8910E9E990F49C3D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E609EC1857571C440F1F66A /* libPods-TexasHistoricalMarkersFinalProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A586651FE30796003BF48D = {
+			isa = PBXGroup;
+			children = (
+				C8443FAB1FE318B200580E49 /* GMU-Bridging-Header.h */,
+				C8A586701FE30796003BF48D /* TexasHistoricalMarkersFinalProject */,
+				C8A586851FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests */,
+				C8A586901FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests */,
+				C8A5866F1FE30796003BF48D /* Products */,
+				22E21294D0D8472EDB527115 /* Pods */,
+				A21FBC8910E9E990F49C3D6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8A5866F1FE30796003BF48D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8A5866E1FE30796003BF48D /* TexasHistoricalMarkersFinalProject.app */,
+				C8A586821FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests.xctest */,
+				C8A5868D1FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8A586701FE30796003BF48D /* TexasHistoricalMarkersFinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				C8A586711FE30796003BF48D /* AppDelegate.swift */,
+				C8A586731FE30796003BF48D /* ViewController.swift */,
+				C8A586751FE30796003BF48D /* Main.storyboard */,
+				C8A586781FE30796003BF48D /* Assets.xcassets */,
+				C8A5867A1FE30796003BF48D /* LaunchScreen.storyboard */,
+				C8A5867D1FE30796003BF48D /* Info.plist */,
+			);
+			path = TexasHistoricalMarkersFinalProject;
+			sourceTree = "<group>";
+		};
+		C8A586851FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8A586861FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests.swift */,
+				C8A586881FE30796003BF48D /* Info.plist */,
+			);
+			path = TexasHistoricalMarkersFinalProjectTests;
+			sourceTree = "<group>";
+		};
+		C8A586901FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8A586911FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests.swift */,
+				C8A586931FE30796003BF48D /* Info.plist */,
+			);
+			path = TexasHistoricalMarkersFinalProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8A5866D1FE30796003BF48D /* TexasHistoricalMarkersFinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A586961FE30796003BF48D /* Build configuration list for PBXNativeTarget "TexasHistoricalMarkersFinalProject" */;
+			buildPhases = (
+				CD69AE1D3C7A0D84AAD9F074 /* [CP] Check Pods Manifest.lock */,
+				C8A5866A1FE30796003BF48D /* Sources */,
+				C8A5866B1FE30796003BF48D /* Frameworks */,
+				C8A5866C1FE30796003BF48D /* Resources */,
+				609E48B1B809A1A7942B1B71 /* [CP] Embed Pods Frameworks */,
+				FC097BF58AFAFFCD42F4669A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TexasHistoricalMarkersFinalProject;
+			productName = TexasHistoricalMarkersFinalProject;
+			productReference = C8A5866E1FE30796003BF48D /* TexasHistoricalMarkersFinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8A586811FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A586991FE30796003BF48D /* Build configuration list for PBXNativeTarget "TexasHistoricalMarkersFinalProjectTests" */;
+			buildPhases = (
+				C8A5867E1FE30796003BF48D /* Sources */,
+				C8A5867F1FE30796003BF48D /* Frameworks */,
+				C8A586801FE30796003BF48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A586841FE30796003BF48D /* PBXTargetDependency */,
+			);
+			name = TexasHistoricalMarkersFinalProjectTests;
+			productName = TexasHistoricalMarkersFinalProjectTests;
+			productReference = C8A586821FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8A5868C1FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A5869C1FE30796003BF48D /* Build configuration list for PBXNativeTarget "TexasHistoricalMarkersFinalProjectUITests" */;
+			buildPhases = (
+				C8A586891FE30796003BF48D /* Sources */,
+				C8A5868A1FE30796003BF48D /* Frameworks */,
+				C8A5868B1FE30796003BF48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A5868F1FE30796003BF48D /* PBXTargetDependency */,
+			);
+			name = TexasHistoricalMarkersFinalProjectUITests;
+			productName = TexasHistoricalMarkersFinalProjectUITests;
+			productReference = C8A5868D1FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8A586661FE30796003BF48D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = jbaumann;
+				TargetAttributes = {
+					C8A5866D1FE30796003BF48D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C8A586811FE30796003BF48D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8A5866D1FE30796003BF48D;
+					};
+					C8A5868C1FE30796003BF48D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8A5866D1FE30796003BF48D;
+					};
+				};
+			};
+			buildConfigurationList = C8A586691FE30796003BF48D /* Build configuration list for PBXProject "TexasHistoricalMarkersFinalProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8A586651FE30796003BF48D;
+			productRefGroup = C8A5866F1FE30796003BF48D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8A5866D1FE30796003BF48D /* TexasHistoricalMarkersFinalProject */,
+				C8A586811FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests */,
+				C8A5868C1FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8A5866C1FE30796003BF48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A5867C1FE30796003BF48D /* LaunchScreen.storyboard in Resources */,
+				C8A586791FE30796003BF48D /* Assets.xcassets in Resources */,
+				C8A586771FE30796003BF48D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A586801FE30796003BF48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A5868B1FE30796003BF48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		609E48B1B809A1A7942B1B71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TexasHistoricalMarkersFinalProject/Pods-TexasHistoricalMarkersFinalProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD69AE1D3C7A0D84AAD9F074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TexasHistoricalMarkersFinalProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC097BF58AFAFFCD42F4669A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TexasHistoricalMarkersFinalProject/Pods-TexasHistoricalMarkersFinalProject-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TexasHistoricalMarkersFinalProject/Pods-TexasHistoricalMarkersFinalProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A5866A1FE30796003BF48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A586741FE30796003BF48D /* ViewController.swift in Sources */,
+				C8A586721FE30796003BF48D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A5867E1FE30796003BF48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A586871FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A586891FE30796003BF48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A586921FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8A586841FE30796003BF48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A5866D1FE30796003BF48D /* TexasHistoricalMarkersFinalProject */;
+			targetProxy = C8A586831FE30796003BF48D /* PBXContainerItemProxy */;
+		};
+		C8A5868F1FE30796003BF48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A5866D1FE30796003BF48D /* TexasHistoricalMarkersFinalProject */;
+			targetProxy = C8A5868E1FE30796003BF48D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8A586751FE30796003BF48D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A586761FE30796003BF48D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8A5867A1FE30796003BF48D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A5867B1FE30796003BF48D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8A586941FE30796003BF48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8A586951FE30796003BF48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8A586971FE30796003BF48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC267187D505A7CE5AEA57E /* Pods-TexasHistoricalMarkersFinalProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38275985CV;
+				INFOPLIST_FILE = TexasHistoricalMarkersFinalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.TexasHistoricalMarkersFinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=*]" = "GMU-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8A586981FE30796003BF48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF101583AC0BFE3287CEB3C /* Pods-TexasHistoricalMarkersFinalProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38275985CV;
+				INFOPLIST_FILE = TexasHistoricalMarkersFinalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.TexasHistoricalMarkersFinalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=*]" = "GMU-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8A5869A1FE30796003BF48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TexasHistoricalMarkersFinalProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.TexasHistoricalMarkersFinalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TexasHistoricalMarkersFinalProject.app/TexasHistoricalMarkersFinalProject";
+			};
+			name = Debug;
+		};
+		C8A5869B1FE30796003BF48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TexasHistoricalMarkersFinalProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.TexasHistoricalMarkersFinalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TexasHistoricalMarkersFinalProject.app/TexasHistoricalMarkersFinalProject";
+			};
+			name = Release;
+		};
+		C8A5869D1FE30796003BF48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TexasHistoricalMarkersFinalProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.TexasHistoricalMarkersFinalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TexasHistoricalMarkersFinalProject;
+			};
+			name = Debug;
+		};
+		C8A5869E1FE30796003BF48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TexasHistoricalMarkersFinalProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.TexasHistoricalMarkersFinalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TexasHistoricalMarkersFinalProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8A586691FE30796003BF48D /* Build configuration list for PBXProject "TexasHistoricalMarkersFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A586941FE30796003BF48D /* Debug */,
+				C8A586951FE30796003BF48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A586961FE30796003BF48D /* Build configuration list for PBXNativeTarget "TexasHistoricalMarkersFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A586971FE30796003BF48D /* Debug */,
+				C8A586981FE30796003BF48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A586991FE30796003BF48D /* Build configuration list for PBXNativeTarget "TexasHistoricalMarkersFinalProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A5869A1FE30796003BF48D /* Debug */,
+				C8A5869B1FE30796003BF48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A5869C1FE30796003BF48D /* Build configuration list for PBXNativeTarget "TexasHistoricalMarkersFinalProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A5869D1FE30796003BF48D /* Debug */,
+				C8A5869E1FE30796003BF48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8A586661FE30796003BF48D /* Project object */;
+}
