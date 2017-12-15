@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		61BCF79AB27D5BE09AAFC472 /* libPods-TexasHistoricalMarkersFinalProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E609EC1857571C440F1F66A /* libPods-TexasHistoricalMarkersFinalProject.a */; };
+		C8443FAD1FE343F200580E49 /* KML-Files in Resources */ = {isa = PBXBuildFile; fileRef = C8443FAC1FE343F200580E49 /* KML-Files */; };
+		C8443FB31FE372FB00580E49 /* MarkerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8443FB21FE372FB00580E49 /* MarkerDetailViewController.swift */; };
+		C880F4621FE382A400D0FD92 /* MarkerDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C880F4611FE382A400D0FD92 /* MarkerDetailCell.swift */; };
 		C8A586721FE30796003BF48D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A586711FE30796003BF48D /* AppDelegate.swift */; };
 		C8A586741FE30796003BF48D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A586731FE30796003BF48D /* ViewController.swift */; };
 		C8A586771FE30796003BF48D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A586751FE30796003BF48D /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 /* Begin PBXFileReference section */
 		3E609EC1857571C440F1F66A /* libPods-TexasHistoricalMarkersFinalProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TexasHistoricalMarkersFinalProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8443FAB1FE318B200580E49 /* GMU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GMU-Bridging-Header.h"; sourceTree = "<group>"; };
+		C8443FAC1FE343F200580E49 /* KML-Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "KML-Files"; sourceTree = "<group>"; };
+		C8443FB21FE372FB00580E49 /* MarkerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerDetailViewController.swift; sourceTree = "<group>"; };
+		C880F4611FE382A400D0FD92 /* MarkerDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerDetailCell.swift; sourceTree = "<group>"; };
 		C8A5866E1FE30796003BF48D /* TexasHistoricalMarkersFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TexasHistoricalMarkersFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A586711FE30796003BF48D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8A586731FE30796003BF48D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				C8443FAB1FE318B200580E49 /* GMU-Bridging-Header.h */,
+				C8443FAC1FE343F200580E49 /* KML-Files */,
 				C8A586701FE30796003BF48D /* TexasHistoricalMarkersFinalProject */,
 				C8A586851FE30796003BF48D /* TexasHistoricalMarkersFinalProjectTests */,
 				C8A586901FE30796003BF48D /* TexasHistoricalMarkersFinalProjectUITests */,
@@ -125,6 +132,8 @@
 			children = (
 				C8A586711FE30796003BF48D /* AppDelegate.swift */,
 				C8A586731FE30796003BF48D /* ViewController.swift */,
+				C8443FB21FE372FB00580E49 /* MarkerDetailViewController.swift */,
+				C880F4611FE382A400D0FD92 /* MarkerDetailCell.swift */,
 				C8A586751FE30796003BF48D /* Main.storyboard */,
 				C8A586781FE30796003BF48D /* Assets.xcassets */,
 				C8A5867A1FE30796003BF48D /* LaunchScreen.storyboard */,
@@ -262,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A5867C1FE30796003BF48D /* LaunchScreen.storyboard in Resources */,
+				C8443FAD1FE343F200580E49 /* KML-Files in Resources */,
 				C8A586791FE30796003BF48D /* Assets.xcassets in Resources */,
 				C8A586771FE30796003BF48D /* Main.storyboard in Resources */,
 			);
@@ -344,6 +354,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A586741FE30796003BF48D /* ViewController.swift in Sources */,
+				C8443FB31FE372FB00580E49 /* MarkerDetailViewController.swift in Sources */,
+				C880F4621FE382A400D0FD92 /* MarkerDetailCell.swift in Sources */,
 				C8A586721FE30796003BF48D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,16 +523,19 @@
 			baseConfigurationReference = CDC267187D505A7CE5AEA57E /* Pods-TexasHistoricalMarkersFinalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38275985CV;
 				INFOPLIST_FILE = TexasHistoricalMarkersFinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.TexasHistoricalMarkersFinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				"SWIFT_OBJC_BRIDGING_HEADER[sdk=*]" = "GMU-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -529,16 +544,19 @@
 			baseConfigurationReference = FAF101583AC0BFE3287CEB3C /* Pods-TexasHistoricalMarkersFinalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38275985CV;
 				INFOPLIST_FILE = TexasHistoricalMarkersFinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jbaumann.TexasHistoricalMarkersFinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				"SWIFT_OBJC_BRIDGING_HEADER[sdk=*]" = "GMU-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

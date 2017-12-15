@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TexasHistoricalMarkersFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,6 +23,108 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Marker Detail View Controller-->
+        <scene sceneID="dqe-i3-nCQ">
+            <objects>
+                <viewController storyboardIdentifier="markerDetailViewController" id="exq-am-xjH" customClass="MarkerDetailViewController" customModule="TexasHistoricalMarkersFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AzM-0g-oXp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GD-Hb-oSb">
+                                <rect key="frame" x="0.0" y="20" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="DSd-gS-86s"/>
+                                    <constraint firstAttribute="height" constant="44" id="O5Q-8b-rsT"/>
+                                </constraints>
+                                <state key="normal" title="X"/>
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="exq-am-xjH" eventType="touchUpInside" id="H1U-UB-iFC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5WB-vc-3w1">
+                                <rect key="frame" x="0.0" y="20" width="375" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="3jE-fd-Zh8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnW-a1-oha">
+                                <rect key="frame" x="0.0" y="270" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Bu-zA-JNR">
+                                <rect key="frame" x="0.0" y="291" width="357" height="30"/>
+                                <state key="normal" title="Get Directions with Google Maps (must be installed)"/>
+                                <connections>
+                                    <action selector="directionsButtonClicked:" destination="exq-am-xjH" eventType="touchUpInside" id="1j2-eB-5UT"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Siu-On-gfc">
+                                <rect key="frame" x="0.0" y="321" width="375" height="346"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="markerDetailCell" id="VRR-Bz-2Gz" customClass="MarkerDetailCell" customModule="TexasHistoricalMarkersFinalProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VRR-Bz-2Gz" id="R1m-ua-cG4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="946-BJ-TJn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="946-BJ-TJn" secondAttribute="trailing" id="c14-Mi-8TZ"/>
+                                                <constraint firstItem="946-BJ-TJn" firstAttribute="top" secondItem="R1m-ua-cG4" secondAttribute="top" id="iR5-8g-jla"/>
+                                                <constraint firstItem="946-BJ-TJn" firstAttribute="leading" secondItem="R1m-ua-cG4" secondAttribute="leading" id="lw1-LD-LP3"/>
+                                                <constraint firstAttribute="bottom" secondItem="946-BJ-TJn" secondAttribute="bottom" id="r9q-kO-y9o"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="snippetLabel" destination="946-BJ-TJn" id="gh1-AL-oLf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wnW-a1-oha" secondAttribute="trailing" constant="20" symbolic="YES" id="7ou-Uz-hAZ"/>
+                            <constraint firstItem="a2Q-2f-Ybu" firstAttribute="top" secondItem="5WB-vc-3w1" secondAttribute="top" id="AqU-0g-LNG"/>
+                            <constraint firstItem="a2Q-2f-Ybu" firstAttribute="bottom" secondItem="Siu-On-gfc" secondAttribute="bottom" id="D0a-Rw-R7y"/>
+                            <constraint firstItem="a2Q-2f-Ybu" firstAttribute="leading" secondItem="Siu-On-gfc" secondAttribute="leading" id="Fmz-tg-QTt"/>
+                            <constraint firstItem="a2Q-2f-Ybu" firstAttribute="top" secondItem="9GD-Hb-oSb" secondAttribute="top" id="Gny-d4-K5G"/>
+                            <constraint firstItem="Siu-On-gfc" firstAttribute="top" secondItem="4Bu-zA-JNR" secondAttribute="bottom" id="Iwu-Gg-nhE"/>
+                            <constraint firstItem="a2Q-2f-Ybu" firstAttribute="leading" secondItem="9GD-Hb-oSb" secondAttribute="leading" id="KsJ-5M-HdC"/>
+                            <constraint firstItem="wnW-a1-oha" firstAttribute="leading" secondItem="a2Q-2f-Ybu" secondAttribute="leading" id="Wj6-gn-gR0"/>
+                            <constraint firstItem="Siu-On-gfc" firstAttribute="width" secondItem="a2Q-2f-Ybu" secondAttribute="width" id="aYd-8z-0cL"/>
+                            <constraint firstItem="4Bu-zA-JNR" firstAttribute="leading" secondItem="a2Q-2f-Ybu" secondAttribute="leading" id="aaC-gw-DqV"/>
+                            <constraint firstItem="5WB-vc-3w1" firstAttribute="width" secondItem="a2Q-2f-Ybu" secondAttribute="width" id="bJI-KG-Dsn"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9GD-Hb-oSb" secondAttribute="trailing" constant="20" symbolic="YES" id="eQd-uY-Byk"/>
+                            <constraint firstItem="a2Q-2f-Ybu" firstAttribute="leading" secondItem="5WB-vc-3w1" secondAttribute="leading" id="kZn-wU-Dvc"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4Bu-zA-JNR" secondAttribute="trailing" constant="18" id="mZ1-my-q5i"/>
+                            <constraint firstItem="4Bu-zA-JNR" firstAttribute="top" secondItem="wnW-a1-oha" secondAttribute="bottom" id="mdx-3p-Dbl"/>
+                            <constraint firstItem="wnW-a1-oha" firstAttribute="top" secondItem="5WB-vc-3w1" secondAttribute="bottom" id="rEW-H1-NK6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="a2Q-2f-Ybu"/>
+                    </view>
+                    <connections>
+                        <outlet property="directionsButton" destination="4Bu-zA-JNR" id="tc9-IB-zaq"/>
+                        <outlet property="imageView" destination="5WB-vc-3w1" id="SCP-Mc-iq1"/>
+                        <outlet property="tableView" destination="Siu-On-gfc" id="ZQV-dy-mzc"/>
+                        <outlet property="titleLabel" destination="wnW-a1-oha" id="8Pq-eJ-u5u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ekk-QB-UxV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="640.79999999999995" y="694.90254872563719"/>
         </scene>
     </scenes>
 </document>

@@ -9,37 +9,43 @@
 import UIKit
 import GoogleMaps
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GMSMapViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func loadView() {
-        // Create a GMSCameraPosition that tells the map to display the
-        // coordinate -33.86,151.20 at zoom level 6.
-        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 6.0)
+        let camera = GMSCameraPosition.camera(withLatitude: 31.23492, longitude: -99.10238, zoom: 5.5)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        mapView.delegate = self
         view = mapView
         
-        // Creates a marker in the center of the map.
-        let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2D(latitude: -33.86, longitude: 151.20)
-        marker.title = "Sydney"
-        marker.snippet = "Australia"
-        marker.map = mapView
-        
-        let path = Bundle.main.path(forResource: "KML-Files/African American Markers Map.kml.xml", ofType: "kml")
+        let filepath = "/KML-Files/Texas Historical Markers Map.kml"
+        let path = Bundle.main.path(forResource: filepath, ofType: "xml")
         let url = URL(fileURLWithPath: path!)
         let kmlParser = GMUKMLParser(url: url)
         kmlParser.parse()
         
-        let renderer = GMUGeometryRenderer(map: mapView,
-                                       geometries: kmlParser.placemarks,
-                                       styles: kmlParser.styles)
-        
+        let renderer = GMUGeometryRenderer(map: mapView, geometries: kmlParser.placemarks, styles: kmlParser.styles)
         renderer.render()
     }
-
+    
+    func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let markerViewController = storyboard.instantiateViewController(withIdentifier: "markerDetailViewController") as! MarkerDetailViewController
+        markerViewController.configure(marker: marker)
+        self.present(markerViewController, animated: true, completion: nil)
+        return true
+    }
+    
+    func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
+        
+    }
+    
+    func mapView(_ mapView: GMSMapView, markerInfoWindow marker: GMSMarker) {
+        
+    }
+    
 }
 
